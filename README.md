@@ -2,6 +2,14 @@
 
 Timing Sentinel A7 是基于 AMD Artix-7 的数字事件时序诊断样机。它在同一时间基准下监听 UART、GPIO 和 SPI，用可配置硬件规则判断“收到命令后，输出是否在规定期限内响应”，并保存可回放的原始波形、事件和规则配置。
 
+## 直接下载运行
+
+[下载 Windows x64 免安装版（约66 MB）](https://github.com/yangdaniu8-ui/timing-sentinel-a7/releases/download/v0.4.9-public-20261020/TimingSentinelA7-0.4.9-USR43-20261020-win64-portable.zip)
+
+完整解压后双击`START.cmd`，或运行`app/TimingSentinelA7-SPI.exe`；无需安装Python或Vivado。请保留全部配套文件，不要只复制EXE。没有板子也能用随包历史记录回放体验。上方`Code → Download ZIP`是源码，不是免安装运行包。
+
+[发布说明与校验文件](https://github.com/yangdaniu8-ui/timing-sentinel-a7/releases/tag/v0.4.9-public-20261020) · [本次版本检查](docs/releases.md)
+
 ![系统实物全貌](references/submission_20261020/photos/system_front.jpg)
 
 ## 先看这些

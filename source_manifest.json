@@ -1186,8 +1186,8 @@
       "sha256": "99e9d4abedd7c3e09c89904de9be19d5de631394cf9bbdf7dfd9f871f27a59bf"
     },
     "README.md": {
-      "bytes": 3597,
-      "sha256": "7f9192c66685b610209672ca4655a67436bcc9a5150664b7cac093003a62a490"
+      "bytes": 4264,
+      "sha256": "5d93338bcc87d32f90eee1909f2e565ae19ffe3d712dcd88faf35317483ec301"
     },
     "reference_firmware/fpga_usr43.bit": {
       "bytes": 2192211,
@@ -1492,6 +1492,10 @@
     "third_party/host_runtime_licenses/versions.json": {
       "bytes": 209,
       "sha256": "97a20c5f5c214e38f9078e31f3ab4df25fa35b0d7cc3d02831d5ced5b24ab6cf"
+    },
+    "docs/releases.md": {
+      "bytes": 2119,
+      "sha256": "9b8809fba1bfb9085470356b3112dec6116abd60a777a17a21b30a3704dd9f6b"
     }
   }
 }
