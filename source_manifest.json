@@ -9,13 +9,21 @@
       "bytes": 147,
       "sha256": "8d2f45eccb6b599c9baad563e6d93897bb6d42f1cedced497b902f588ca1c5b0"
     },
+    "README.md": {
+      "bytes": 4481,
+      "sha256": "96a383a5fdb8426ea02ad66deabfd7f8912ee3559fe00be393ce31b24ce901ec"
+    },
     "docs/build_and_validation.md": {
-      "bytes": 3274,
-      "sha256": "dc655cd151e3564a930d3ccc584ca512f3999774532526555a203e1f16e158ce"
+      "bytes": 3672,
+      "sha256": "e4cf993b831c7187b465c269e8f5189d4d5fca0a8c326a658edd9c1de807d2d0"
+    },
+    "docs/releases.md": {
+      "bytes": 2497,
+      "sha256": "7a0e0240a84e3a2d00839bc7a3a4184a244dea29940fb12d6daafb824cf9fee2"
     },
     "docs/technical_report.pdf": {
-      "bytes": 2310932,
-      "sha256": "cb7b7dc47792ee0d2ea39ee421482bc37e117cf7ab619bd949d23257c181ceca"
+      "bytes": 2492830,
+      "sha256": "cf9fbc1b1c7d4b70d34feb0413657957dbe51e45f247bb3ae32eda954199a33e"
     },
     "docs/verification.md": {
       "bytes": 2092,
@@ -993,6 +1001,14 @@
       "bytes": 4019,
       "sha256": "43c1de2b4a747707ba05f7e9d210217688efc5993de95ddab0c036542bb898be"
     },
+    "host/packaging/NOTICES.md": {
+      "bytes": 923,
+      "sha256": "582c1c1294f01a081b11c2b01d11566e695280f82b8540b46caa059e48a1d70e"
+    },
+    "host/packaging/QUICK_START.md": {
+      "bytes": 13578,
+      "sha256": "c2740fec5c600d629e721aa2fdfdff16aa1e42c2e3df3b4dbe0ce6e9fd15e8cf"
+    },
     "host/packaging/license_cache/Apache-2.0.txt": {
       "bytes": 10398,
       "sha256": "e3ba223bb1423f0aad8c3dfce0fe3148db48926d41e6fbc3afbbf5ff9e1c89cb"
@@ -1012,14 +1028,6 @@
     "host/packaging/license_cache/pyserial-3.5-LICENSE.txt": {
       "bytes": 1885,
       "sha256": "f91cb9813de6a5b142b8f7f2dede630b5134160aedaeaf55f4d6a7e2593ca3f3"
-    },
-    "host/packaging/NOTICES.md": {
-      "bytes": 923,
-      "sha256": "582c1c1294f01a081b11c2b01d11566e695280f82b8540b46caa059e48a1d70e"
-    },
-    "host/packaging/QUICK_START.md": {
-      "bytes": 13578,
-      "sha256": "c2740fec5c600d629e721aa2fdfdff16aa1e42c2e3df3b4dbe0ce6e9fd15e8cf"
     },
     "host/packaging/spi.spec": {
       "bytes": 1682,
@@ -1149,13 +1157,13 @@
       "bytes": 2814,
       "sha256": "6b66804c22aee45a17b56a6942060ecc2d6482d9bba3b107209d3a7d01613387"
     },
-    "mcu/build.ps1": {
-      "bytes": 3325,
-      "sha256": "4d527fe9a0b78ab8b281ce608a47d954db0892b3ded6b21b33da8a5a7f7edcb1"
-    },
     "mcu/README.md": {
       "bytes": 693,
       "sha256": "32febb0730d0377e5ad67d9ce80d9fd225a5d430e1eaf4177fc37ca8fe5bc025"
+    },
+    "mcu/build.ps1": {
+      "bytes": 3325,
+      "sha256": "4d527fe9a0b78ab8b281ce608a47d954db0892b3ded6b21b33da8a5a7f7edcb1"
     },
     "mcu/scripts/qualify.py": {
       "bytes": 4232,
@@ -1185,9 +1193,9 @@
       "bytes": 596,
       "sha256": "99e9d4abedd7c3e09c89904de9be19d5de631394cf9bbdf7dfd9f871f27a59bf"
     },
-    "README.md": {
-      "bytes": 4264,
-      "sha256": "5d93338bcc87d32f90eee1909f2e565ae19ffe3d712dcd88faf35317483ec301"
+    "reference_firmware/README.md": {
+      "bytes": 733,
+      "sha256": "f808b8b21fbe9c3969e8cbfdd561938878dbacfdc5277d8271777a2f3f6630b4"
     },
     "reference_firmware/fpga_usr43.bit": {
       "bytes": 2192211,
@@ -1196,10 +1204,6 @@
     "reference_firmware/fpga_usr43_spi_x1.mcs": {
       "bytes": 6165628,
       "sha256": "fa110df539807713f067ea73a3be1702ee8ba6283bb706f5c5bc67add5543476"
-    },
-    "reference_firmware/README.md": {
-      "bytes": 733,
-      "sha256": "f808b8b21fbe9c3969e8cbfdd561938878dbacfdc5277d8271777a2f3f6630b4"
     },
     "reference_firmware/stm32_fir_irq.bin": {
       "bytes": 1844,
@@ -1233,6 +1237,10 @@
       "bytes": 203809,
       "sha256": "8274597052083accdfc0a4af8f857ca48f6f14ed053d6d1e3f019008093f85a3"
     },
+    "references/submission_20261020_judge/paired_heavy_frozen_exe.png": {
+      "bytes": 105605,
+      "sha256": "7d95c8b21c9f3089eda8f53fb9284746519284719f6ec6909ce23e281e9d809a"
+    },
     "report/assets_20261017/capture_state_machine_b02.png": {
       "bytes": 47945,
       "sha256": "48fb5d17f1c6ab04a066a5e00930eb568148148ffcbf87dd8d0e643b2b495351"
@@ -1248,6 +1256,10 @@
     "report/assets_20261017/system_architecture.png": {
       "bytes": 76760,
       "sha256": "9eae235d54752ec72eea4f0abb99b0226dde20100ba20c3b826425453a766606"
+    },
+    "report/assets_20261017/system_architecture.svg": {
+      "bytes": 3083,
+      "sha256": "187a6c23afa1786696948768db4f49d803735fcd3bc2f2f7936e94b46c393a4d"
     },
     "report/assets_20261020/late_response_public.png": {
       "bytes": 193207,
@@ -1273,6 +1285,34 @@
       "bytes": 2640,
       "sha256": "70157167ac54ac712d547e85cd930e5d8bf768714f21be4fde8ce7c112f4118b"
     },
+    "report/assets_20261020_judge/compact_workflow.png": {
+      "bytes": 258720,
+      "sha256": "9835c3990511414cb29eda76289527770b9456fe8b4035f5c3ac56584593623b"
+    },
+    "report/assets_20261020_judge/compact_workflow.svg": {
+      "bytes": 2246,
+      "sha256": "2faac8d157823c7c81832c29c4bc927ce08bb3c3ef37f43690af4ca24ed57787"
+    },
+    "report/assets_20261020_judge/same_transaction_timeline.png": {
+      "bytes": 268382,
+      "sha256": "c9634b9d14d7daca9a03680a9656033919219f648268b8b7c95e344cd6326993"
+    },
+    "report/assets_20261020_judge/same_transaction_timeline.svg": {
+      "bytes": 2412,
+      "sha256": "afaf2a7c469704adf38783204573c44d324cbf1ab8194b48bb041d8a193c0da3"
+    },
+    "report/assets_20261020_judge/workload_comparison_nodate.png": {
+      "bytes": 198415,
+      "sha256": "cf9c6021b34cc3d8fdbcb2f58df6fec957a0eda77c51891ee3d01200291a7230"
+    },
+    "report/assets_20261020_judge/workload_comparison_nodate.svg": {
+      "bytes": 2635,
+      "sha256": "3f7c3d15cbe15bd26f6ea8ac9e2bae88199dbf74370cdee40587fe35badfea67"
+    },
+    "report/technical_report_final_revision_20261020.md": {
+      "bytes": 19097,
+      "sha256": "cc52175764f83a4d6491e3f2f7a43b33bcf3afde37fb07c5b733d80872f57a15"
+    },
     "report/technical_report_template_20261017.md": {
       "bytes": 28036,
       "sha256": "3b6b840c52ec684b4d866217696c35b4d1fa3073ee18733fdc2dd433baf7fea1"
@@ -1288,6 +1328,10 @@
     "scripts/build_submission_pdf.py": {
       "bytes": 8196,
       "sha256": "cceccd1712b7669068cfb5feda8e3abb6b6808eab799e4e43a827362df6f0ec5"
+    },
+    "scripts/build_submission_pdf_v3.py": {
+      "bytes": 10314,
+      "sha256": "5c27f754f0e90668a3283fffce766a2c4164d5dac029adab579256feb1928e9c"
     },
     "scripts/mvp1_protocol_cases.py": {
       "bytes": 11921,
@@ -1333,14 +1377,6 @@
       "bytes": 1469,
       "sha256": "9f0490f18656c6f2435bd14f603ef0c96434d1825615363dce43abb42ed1dcce"
     },
-    "third_party/host_runtime_licenses/colorama/colorama-0.4.6.dist-info/licenses/LICENSE.txt": {
-      "bytes": 1491,
-      "sha256": "cac35c02686e5d04a5a7140bfb3b36e73aed496656e891102e428886d7930318"
-    },
-    "third_party/host_runtime_licenses/colorama/distribution_metadata.txt": {
-      "bytes": 17599,
-      "sha256": "b18f33aeb4a8981ada154e88835dbac4ee88f8b9a60f425cf01265703e446b9a"
-    },
     "third_party/host_runtime_licenses/GPL-3.0-only.txt": {
       "bytes": 35147,
       "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
@@ -1349,21 +1385,33 @@
       "bytes": 7651,
       "sha256": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768"
     },
+    "third_party/host_runtime_licenses/PySide6/distribution_metadata.txt": {
+      "bytes": 5416,
+      "sha256": "bddd6d1e6f840de4ecf6464c1afe885491c76d1081c72ce30744deaa74949276"
+    },
+    "third_party/host_runtime_licenses/PySide6/pyside6-6.11.2.dist-info/licenses/LicenseRef-Qt-Commercial.txt": {
+      "bytes": 470,
+      "sha256": "4f54763ac0fe2abd8f7f8d8fe370a94a08ebf84786aa0b91045bd6628deb08a3"
+    },
+    "third_party/host_runtime_licenses/PySide6_Essentials/distribution_metadata.txt": {
+      "bytes": 3802,
+      "sha256": "a9bdd4937ee837eb46e0c38f9c0ab6c59a6f788d711b96b63c726247ca7a2379"
+    },
+    "third_party/host_runtime_licenses/PySide6_Essentials/pyside6_essentials-6.11.2.dist-info/licenses/LicenseRef-Qt-Commercial.txt": {
+      "bytes": 470,
+      "sha256": "4f54763ac0fe2abd8f7f8d8fe370a94a08ebf84786aa0b91045bd6628deb08a3"
+    },
+    "third_party/host_runtime_licenses/colorama/colorama-0.4.6.dist-info/licenses/LICENSE.txt": {
+      "bytes": 1491,
+      "sha256": "cac35c02686e5d04a5a7140bfb3b36e73aed496656e891102e428886d7930318"
+    },
+    "third_party/host_runtime_licenses/colorama/distribution_metadata.txt": {
+      "bytes": 17599,
+      "sha256": "b18f33aeb4a8981ada154e88835dbac4ee88f8b9a60f425cf01265703e446b9a"
+    },
     "third_party/host_runtime_licenses/numpy/distribution_metadata.txt": {
       "bytes": 6774,
       "sha256": "8e75fe6adffcde33328d2e98b54cfc9ce286fcf69e5b140fdcb804067ecefc2b"
-    },
-    "third_party/host_runtime_licenses/numpy/numpy/_core/include/numpy/random/LICENSE.txt": {
-      "bytes": 1039,
-      "sha256": "d544761558b510866c21f7e8a2d5716fca76e0b98117e3b6b86314db7244d150"
-    },
-    "third_party/host_runtime_licenses/numpy/numpy/ma/LICENSE": {
-      "bytes": 1616,
-      "sha256": "d78dbb208b80d92b4d333e41a4baae50d12444f46e53199fa7726a91de6e2da7"
-    },
-    "third_party/host_runtime_licenses/numpy/numpy/random/LICENSE.md": {
-      "bytes": 3582,
-      "sha256": "b4bc2f4fa1c95778f1ed3dd8f14706bece399475b978f9f34b5d3cd72521b48a"
     },
     "third_party/host_runtime_licenses/numpy/numpy-2.5.3.dist-info/licenses/LICENSE.txt": {
       "bytes": 45831,
@@ -1433,6 +1481,18 @@
       "bytes": 340,
       "sha256": "454ec7350e478e037061850b67395753b425b1cb0a34bbc26290b020bf89d763"
     },
+    "third_party/host_runtime_licenses/numpy/numpy/_core/include/numpy/random/LICENSE.txt": {
+      "bytes": 1039,
+      "sha256": "d544761558b510866c21f7e8a2d5716fca76e0b98117e3b6b86314db7244d150"
+    },
+    "third_party/host_runtime_licenses/numpy/numpy/ma/LICENSE": {
+      "bytes": 1616,
+      "sha256": "d78dbb208b80d92b4d333e41a4baae50d12444f46e53199fa7726a91de6e2da7"
+    },
+    "third_party/host_runtime_licenses/numpy/numpy/random/LICENSE.md": {
+      "bytes": 3582,
+      "sha256": "b4bc2f4fa1c95778f1ed3dd8f14706bece399475b978f9f34b5d3cd72521b48a"
+    },
     "third_party/host_runtime_licenses/pyinstaller/distribution_metadata.txt": {
       "bytes": 8730,
       "sha256": "e3796975c0ca5441202b8f18a00605bfeb4701fa30498fb0ce1d72063032215a"
@@ -1445,37 +1505,21 @@
       "bytes": 1546,
       "sha256": "67028a51d498beed98f058948982b524269bad0eec20c534b785bf466d12cde1"
     },
-    "third_party/host_runtime_licenses/pyqtgraph/pyqtgraph/colors/maps/CC-BY license - applies to CET color map data.txt": {
-      "bytes": 14990,
-      "sha256": "c97deeeca4ae375a0334bc7f7af5f707aabfcec959c53c783b9f8771d28fd5b3"
-    },
     "third_party/host_runtime_licenses/pyqtgraph/pyqtgraph-0.14.0.dist-info/licenses/LICENSE.txt": {
       "bytes": 1160,
       "sha256": "b4ed24d468da61df9028a52abe9283a592e63f315943a1c86cd96a9ea5b62079"
     },
-    "third_party/host_runtime_licenses/pyserial/distribution_metadata.txt": {
-      "bytes": 1697,
-      "sha256": "c6fd07321ef59f4070f8869b38ad5d4a3e32d8ceee11584a58279cc578510a47"
+    "third_party/host_runtime_licenses/pyqtgraph/pyqtgraph/colors/maps/CC-BY license - applies to CET color map data.txt": {
+      "bytes": 14990,
+      "sha256": "c97deeeca4ae375a0334bc7f7af5f707aabfcec959c53c783b9f8771d28fd5b3"
     },
     "third_party/host_runtime_licenses/pyserial/LICENSE.txt": {
       "bytes": 1885,
       "sha256": "f91cb9813de6a5b142b8f7f2dede630b5134160aedaeaf55f4d6a7e2593ca3f3"
     },
-    "third_party/host_runtime_licenses/PySide6/distribution_metadata.txt": {
-      "bytes": 5416,
-      "sha256": "bddd6d1e6f840de4ecf6464c1afe885491c76d1081c72ce30744deaa74949276"
-    },
-    "third_party/host_runtime_licenses/PySide6/pyside6-6.11.2.dist-info/licenses/LicenseRef-Qt-Commercial.txt": {
-      "bytes": 470,
-      "sha256": "4f54763ac0fe2abd8f7f8d8fe370a94a08ebf84786aa0b91045bd6628deb08a3"
-    },
-    "third_party/host_runtime_licenses/PySide6_Essentials/distribution_metadata.txt": {
-      "bytes": 3802,
-      "sha256": "a9bdd4937ee837eb46e0c38f9c0ab6c59a6f788d711b96b63c726247ca7a2379"
-    },
-    "third_party/host_runtime_licenses/PySide6_Essentials/pyside6_essentials-6.11.2.dist-info/licenses/LicenseRef-Qt-Commercial.txt": {
-      "bytes": 470,
-      "sha256": "4f54763ac0fe2abd8f7f8d8fe370a94a08ebf84786aa0b91045bd6628deb08a3"
+    "third_party/host_runtime_licenses/pyserial/distribution_metadata.txt": {
+      "bytes": 1697,
+      "sha256": "c6fd07321ef59f4070f8869b38ad5d4a3e32d8ceee11584a58279cc578510a47"
     },
     "third_party/host_runtime_licenses/python-LICENSE.txt": {
       "bytes": 33861,
@@ -1492,10 +1536,6 @@
     "third_party/host_runtime_licenses/versions.json": {
       "bytes": 209,
       "sha256": "97a20c5f5c214e38f9078e31f3ab4df25fa35b0d7cc3d02831d5ced5b24ab6cf"
-    },
-    "docs/releases.md": {
-      "bytes": 2119,
-      "sha256": "9b8809fba1bfb9085470356b3112dec6116abd60a777a17a21b30a3704dd9f6b"
     }
   }
 }

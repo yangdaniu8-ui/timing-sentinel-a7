@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680">
+<style>text{font-family:'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#111827;font-size:20px}.title{font-size:26px;font-weight:700}.small{font-size:17px}.grid{stroke:#dde3e9;stroke-width:1}</style>
+<rect width="1200" height="680" fill="white"/><text x="30" y="40" class="title">相同任务类型 不同中断负载与判定期限</text>
+<rect x="35" y="70" width="24" height="18" fill="#506f94"/><text x="70" y="87">3.5 ms组</text><rect x="250" y="70" width="24" height="18" fill="#9cabbc"/><text x="285" y="87">8 ms组</text>
+<text x="810" y="87" class="small">GPIO观测均值 每柱n=2</text>
+<g class="grid"><path d="M300 120 V560 M380 120 V560 M460 120 V560 M540 120 V560 M620 120 V560 M700 120 V560 M780 120 V560 M860 120 V560 M940 120 V560 M1020 120 V560"/></g>
+<path d="M580 110 V565" stroke="#9e6929" stroke-width="2" stroke-dasharray="7 5"/><text x="555" y="112" class="small">3.5 ms期限</text>
+<path d="M940 110 V565" stroke="#496b42" stroke-width="2" stroke-dasharray="7 5"/><text x="916" y="112" class="small">8 ms期限</text>
+<text x="35" y="175">无中断</text><text x="35" y="320">轻度中断竞争</text><text x="35" y="465">重度中断竞争</text>
+<rect x="300" y="145" width="228.356" height="27" fill="#506f94"/><text x="1040" y="166" class="small">2.85445 PASS</text>
+<rect x="300" y="190" width="228.370" height="27" fill="#9cabbc"/><text x="1040" y="211" class="small">2.85462 PASS</text>
+<rect x="300" y="290" width="236.819" height="27" fill="#506f94"/><text x="1040" y="311" class="small">2.96024 PASS</text>
+<rect x="300" y="335" width="236.861" height="27" fill="#9cabbc"/><text x="1040" y="356" class="small">2.96076 PASS</text>
+<rect x="300" y="435" width="339.762" height="27" fill="#506f94"/><text x="1040" y="456" class="small">4.24703 TIMEOUT</text>
+<rect x="300" y="480" width="341.407" height="27" fill="#9cabbc"/><text x="1040" y="501" class="small">4.26759 PASS</text>
+<path d="M300 560 H1020" stroke="#334155" stroke-width="2"/>
+<g text-anchor="middle" class="small"><text x="300" y="590">0</text><text x="380" y="590">1</text><text x="460" y="590">2</text><text x="540" y="590">3</text><text x="620" y="590">4</text><text x="700" y="590">5</text><text x="780" y="590">6</text><text x="860" y="590">7</text><text x="940" y="590">8</text><text x="1020" y="590">9</text></g>
+<text x="555" y="625">GPIO响应间隔 ms</text><text x="30" y="662" class="small">来源：两窗共12任务；两组是不同次任务；宽窗通过不表示计算变快；时间按标称时基换算</text>
+</svg>

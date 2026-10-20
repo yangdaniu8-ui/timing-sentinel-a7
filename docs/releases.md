@@ -1,5 +1,9 @@
 # 上位机公开运行版
 
+## 当前技术文档
+
+[最新版技术文档 PDF](technical_report.pdf)为已确认的13页报告，参考文献独立一页；对应正文、插图和生成脚本一并保存在仓库中。此次只修订文档，未改变程序、固件或以下 Release 附件。现有免安装 ZIP 与源码 RAR 内附的报告仍为早期版本，请单独下载仓库中的最新 PDF。
+
 ## 0.4.9 · 2026年10月20日
 
 [GitHub Releases 下载页](https://github.com/yangdaniu8-ui/timing-sentinel-a7/releases/tag/v0.4.9-public-20261020)

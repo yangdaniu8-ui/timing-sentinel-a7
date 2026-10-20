@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0 L8 3 L0 6" fill="none" stroke="#334155" stroke-width="1.5"/></marker></defs>
+<style>text{font-family:'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#111827;font-size:19px} .title{font-size:25px;font-weight:700}.box{fill:#f4f7fa;stroke:#63758b;stroke-width:2}.inner{fill:#fff;stroke:#8494a7;stroke-width:1.5}.arrow{fill:none;stroke:#334155;stroke-width:2;marker-end:url(#a)}.small{font-size:16px}</style>
+<rect width="1200" height="700" fill="white"/>
+<text x="30" y="38" class="title">FPGA跨协议时序诊断平台</text>
+<rect x="25" y="140" width="230" height="390" rx="7" class="box"/>
+<text x="50" y="180" class="title">STM32任务板</text>
+<text x="50" y="220">固定输入 FIR计算</text><text x="50" y="257">无 / 轻 / 重中断负载</text>
+<text x="50" y="315">UART：任务身份与A5</text><text x="50" y="355">GPIO：响应边沿</text><text x="50" y="395">SPI：SCK / MOSI / CS</text>
+<text x="50" y="475" class="small">仅在READY后启动一轮</text>
+<rect x="325" y="75" width="510" height="530" rx="7" class="box"/>
+<text x="350" y="115" class="title">AMD Artix-7 FPGA</text>
+<rect x="350" y="145" width="460" height="65" rx="4" class="inner"/><text x="375" y="185">输入同步 / 边沿提取 / UART与SPI译码</text>
+<rect x="350" y="245" width="460" height="65" rx="4" class="inner"/><text x="375" y="285">四条并行时间规则 / 统一标称50 MHz时基</text>
+<rect x="350" y="345" width="220" height="92" rx="4" class="inner"/><text x="370" y="383">65,536 × 8 bit</text><text x="370" y="414">原始波形环</text>
+<rect x="590" y="345" width="220" height="92" rx="4" class="inner"/><text x="610" y="383">事件与规则结果</text><text x="610" y="414">session / config</text>
+<rect x="350" y="475" width="460" height="75" rx="4" class="inner"/><text x="375" y="507">通信协议与分块读取 / BRAM接收FIFO</text><text x="375" y="535">按键控制 / LED与蜂鸣器</text>
+<path d="M580 210 V242 M580 310 V330 H460 V342 M580 330 H700 V342 M460 437 V472 M700 437 V472" class="arrow"/>
+<path d="M255 285 H322" class="arrow"/><text x="265" y="263" class="small">3.3 V</text>
+<path d="M350 575 H140 V533" class="arrow"/><text x="155" y="600" class="small">READY受控启动线</text>
+<rect x="900" y="170" width="275" height="360" rx="7" class="box"/><text x="925" y="210" class="title">Windows上位机</text>
+<text x="925" y="255">配置提交与回读</text><text x="925" y="295">完整读取与原子保存</text><text x="925" y="335">波形与关键事件定位</text><text x="925" y="375">任务身份 / 统计报告</text><text x="925" y="415">原始记录回放与导出</text>
+<path d="M835 465 H897" class="arrow"/><path d="M900 490 H838" class="arrow"/><text x="850" y="445" class="small">USB_UART</text>
+<text x="30" y="655">两板独立供电并共地；测量输入被动监听；上传期间不是连续无盲区采集</text>
+</svg>

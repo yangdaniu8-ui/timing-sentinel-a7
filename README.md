@@ -14,11 +14,13 @@ Timing Sentinel A7 是基于 AMD Artix-7 的数字事件时序诊断样机。它
 
 ## 先看这些
 
-- [技术文档 PDF](docs/technical_report.pdf)
+- [最新技术文档 PDF（13页，参考文献独立一页）](docs/technical_report.pdf)
 - [丝印引脚接线说明](docs/wiring.md)
 - [上位机使用说明](host/packaging/COMPACT_QUICK_START.md)
 - [源码重建与测试](docs/build_and_validation.md)
 - [测试条件与结果](docs/verification.md)
+
+最新技术文档以本仓库 PDF 为准。现有免安装 ZIP 和源码 RAR 内附的是早期文档；此次仅更新报告，程序与固件不变，未重新打包。
 
 ## 核心功能
 

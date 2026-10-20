@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="460" viewBox="0 0 1400 460">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#315B83"/></marker></defs>
+<style>text{font-family:'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#172B43;font-size:28px}.small{font-size:25px}.title{font-size:36px;font-weight:700}.head{font-weight:700}.box{fill:#F1F6FA;stroke:#8099B0;stroke-width:2}</style>
+<rect width="1400" height="460" fill="white"/><text x="35" y="44" class="title">六任务实验：先保存证据，再释放板端</text>
+<g class="box"><rect x="35" y="90" width="330" height="100" rx="8"/><rect x="535" y="90" width="330" height="100" rx="8"/><rect x="1035" y="90" width="330" height="100" rx="8"/>
+<rect x="1035" y="265" width="330" height="100" rx="8"/><rect x="535" y="265" width="330" height="100" rx="8"/><rect x="35" y="265" width="330" height="100" rx="8"/></g>
+<g text-anchor="middle"><text x="200" y="130" class="head">连接设备，回读配置</text><text x="200" y="167" class="small">已有冻结记录先保护保存</text>
+<text x="700" y="130" class="head">ARM准备监测</text><text x="700" y="167" class="small">READY允许任务启动</text>
+<text x="1200" y="130" class="head">等待冻结，分块读取</text><text x="1200" y="167" class="small">检查会话、长度与CRC</text>
+<text x="1200" y="305" class="head">保存tscap并回读</text><text x="1200" y="342" class="small">原始样点和事件持久化</text>
+<text x="700" y="305" class="head">核对身份与规则</text><text x="700" y="342" class="small">按配置分组，关联原始文件</text>
+<text x="200" y="305" class="head">保留末轮，汇总报告</text><text x="200" y="342" class="small">回放波形与关键事件</text></g>
+<g fill="none" stroke="#315B83" stroke-width="3" marker-end="url(#arrow)"><path d="M365 140H520"/><path d="M865 140H1020"/><path d="M1200 190V250"/><path d="M1035 315H880"/><path d="M535 315H380"/></g>
+<text x="35" y="414" class="small">前5轮成功保存后释放并继续ARM；第6轮保持冻结。失败或通信不确定时，保留已有现场，不自动释放。</text>
+</svg>

@@ -43,13 +43,13 @@ pwsh -NoProfile -File scripts/build_mcu.ps1 -CompilerBin D:/Keil_v5/ARM/ARMCC/bi
 
 ## 技术文档
 
-`report/technical_report_template_20261017.md`是五部分正文，官方参考模板和照片保存在references内。PDF生成器直接依据模板页边距、字号与结构排版，照片仅作页面旋转，不修改像素。运行环境为Windows，需ReportLab、Pillow及宋体/黑体：
+当前五部分正文为`report/technical_report_final_revision_20261020.md`，对应已审阅的`docs/technical_report.pdf`（13页，参考文献独占第13页）。正文及图注不列实验完成日期；参考文献出版年份和技术时间数据保留。官方参考模板和照片保存在references内。PDF生成器直接依据模板页边距、字号与结构排版，照片仅作页面旋转，不修改像素。运行环境为Windows，需ReportLab、Pillow及宋体/黑体：
 
 ```powershell
-python scripts/build_submission_pdf.py --out out/technical_report.pdf
+python scripts/build_submission_pdf_v3.py --out out/technical_report_v3.pdf
 ```
 
-输出目录需全新或指定新文件名，生成后仍应逐页检查。仓库提供的PDF已完成逐页视觉检查；视频由作者另行拍摄，不提供虚构演示链接。
+输出需指定不存在的新文件名，生成后仍应逐页检查。仓库提供的PDF已完成逐页视觉检查；视频由作者另行拍摄，不提供虚构演示链接。原`technical_report_template_20261017.md`与`build_submission_pdf.py`保留为历史版本，不是当前报告入口。本次文档修订未重新运行实板实验，也不改变应用或固件。
 
 ## 版本与完整性
 

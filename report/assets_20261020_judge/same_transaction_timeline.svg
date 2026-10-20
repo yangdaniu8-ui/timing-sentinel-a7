@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="580" viewBox="0 0 1400 580">
+<style>text{font-family:'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#172B43;font-size:28px}.title{font-size:36px;font-weight:700}.small{font-size:24px}.bold{font-weight:700}</style>
+<rect width="1400" height="580" fill="white"/>
+<text x="35" y="48" class="title">同一个任务 · 同一起点 · 同一响应</text>
+<text x="35" y="90" class="small">UART A5合法字节为零点；GPIO与SPI分别作为响应端点</text>
+<rect x="250" y="145" width="428.75" height="185" fill="#EDF4FA"/>
+<rect x="678.75" y="145" width="551.25" height="185" fill="#FFF4E5"/>
+<g stroke="#BBC8D5" stroke-width="2"><path d="M250 200 H1230 M250 290 H1230"/></g>
+<path d="M250 130 V350" stroke="#315B83" stroke-width="3" stroke-dasharray="7 6"/>
+<path d="M678.75 130 V350" stroke="#B57723" stroke-width="3" stroke-dasharray="7 6"/>
+<path d="M1230 130 V350" stroke="#23755A" stroke-width="3" stroke-dasharray="7 6"/>
+<text x="242" y="125" text-anchor="end" class="small">A事件</text>
+<text x="678.75" y="125" text-anchor="middle" class="small">3.5 ms期限</text>
+<text x="1230" y="125" text-anchor="middle" class="small">8 ms期限</text>
+<text x="35" y="207" class="bold">GPIO上升沿</text><text x="35" y="297" class="bold">SPI C3完成</text>
+<circle cx="772.8202" cy="200" r="9" fill="#315B83"/>
+<circle cx="777.88925" cy="290" r="9" fill="#6B568B"/>
+<text x="805" y="185" class="bold">4.267920 ms</text>
+<text x="805" y="275" class="bold">4.309300 ms</text>
+<path d="M250 350 H1230" stroke="#52677E" stroke-width="2"/>
+<g class="small" text-anchor="middle"><text x="250" y="385">0</text><text x="495" y="385">2</text><text x="740" y="385">4</text><text x="985" y="385">6</text><text x="1230" y="385">8 ms</text></g>
+<rect x="250" y="412" width="460" height="92" rx="8" fill="#FFF4E5"/>
+<rect x="730" y="412" width="500" height="92" rx="8" fill="#EAF5F0"/>
+<text x="275" y="450" class="bold">3.5 ms：R0与R2均TIMEOUT</text>
+<text x="275" y="484" class="small">实际响应仍被保留，不填成零延迟</text>
+<text x="755" y="450" class="bold">8 ms：R1与R3均PASS</text>
+<text x="755" y="484" class="small">期限更宽，不代表任务计算变快</text>
+<text x="35" y="553" class="small">来源：任务3 / session3 / config2；按实物记录时间戳重建，时间按50 MHz标称时基换算。</text>
+</svg>
