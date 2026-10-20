@@ -1,0 +1,1453 @@
+{
+  "cases": [
+    {
+      "audit": {
+        "method": "sample_reconstruction_without_scene_markers",
+        "reasons": [],
+        "rules": [
+          {
+            "matched_delay_ms": 2.85438,
+            "observed_delay_ms": 2.85438,
+            "result": "PASS",
+            "rule_id": 0,
+            "sampled_observed_ms": 2.85434
+          },
+          {
+            "matched_delay_ms": 2.85438,
+            "observed_delay_ms": 2.85438,
+            "result": "PASS",
+            "rule_id": 1,
+            "sampled_observed_ms": 2.85434
+          },
+          {
+            "matched_delay_ms": 2.89576,
+            "observed_delay_ms": 2.89576,
+            "result": "PASS",
+            "rule_id": 2,
+            "sampled_observed_ms": 2.89574
+          },
+          {
+            "matched_delay_ms": 2.89576,
+            "observed_delay_ms": 2.89576,
+            "result": "PASS",
+            "rule_id": 3,
+            "sampled_observed_ms": 2.89574
+          }
+        ],
+        "status": "verified"
+      },
+      "deadline_comparison": {
+        "a_tick": 5728920116,
+        "basis": "verified_samples_events_and_identical_A_B_timestamps",
+        "independently_calibrated": false,
+        "pairs": [
+          {
+            "deadlines_ms": [
+              3.5,
+              8
+            ],
+            "observed_b_tick": 5729062835,
+            "observed_delay_ms": 2.85438,
+            "results": [
+              "PASS",
+              "PASS"
+            ],
+            "rule_ids": [
+              0,
+              1
+            ],
+            "target": "GPIO"
+          },
+          {
+            "deadlines_ms": [
+              3.5,
+              8
+            ],
+            "observed_b_tick": 5729064904,
+            "observed_delay_ms": 2.89576,
+            "results": [
+              "PASS",
+              "PASS"
+            ],
+            "rule_ids": [
+              2,
+              3
+            ],
+            "target": "SPI"
+          }
+        ],
+        "same_transaction": true
+      },
+      "file": "round_01_s1.tscap",
+      "identity": {
+        "id": 1,
+        "name": "无中断",
+        "nominal_period_us": 0,
+        "packet_hex": "e24040416052557b72a5",
+        "phase": 37,
+        "profile": 0
+      },
+      "session_id": 1,
+      "sha256": "216575f396af1b467130c7e750640412a0d35a23cd06f36beb85a7ac8d2aaac1"
+    },
+    {
+      "audit": {
+        "method": "sample_reconstruction_without_scene_markers",
+        "reasons": [],
+        "rules": [
+          {
+            "matched_delay_ms": 2.93918,
+            "observed_delay_ms": 2.93918,
+            "result": "PASS",
+            "rule_id": 0,
+            "sampled_observed_ms": 2.93914
+          },
+          {
+            "matched_delay_ms": 2.93918,
+            "observed_delay_ms": 2.93918,
+            "result": "PASS",
+            "rule_id": 1,
+            "sampled_observed_ms": 2.93914
+          },
+          {
+            "matched_delay_ms": 2.98054,
+            "observed_delay_ms": 2.98054,
+            "result": "PASS",
+            "rule_id": 2,
+            "sampled_observed_ms": 2.98054
+          },
+          {
+            "matched_delay_ms": 2.98054,
+            "observed_delay_ms": 2.98054,
+            "result": "PASS",
+            "rule_id": 3,
+            "sampled_observed_ms": 2.98054
+          }
+        ],
+        "status": "verified"
+      },
+      "deadline_comparison": {
+        "a_tick": 6161806385,
+        "basis": "verified_samples_events_and_identical_A_B_timestamps",
+        "independently_calibrated": false,
+        "pairs": [
+          {
+            "deadlines_ms": [
+              3.5,
+              8
+            ],
+            "observed_b_tick": 6161953344,
+            "observed_delay_ms": 2.93918,
+            "results": [
+              "PASS",
+              "PASS"
+            ],
+            "rule_ids": [
+              0,
+              1
+            ],
+            "target": "GPIO"
+          },
+          {
+            "deadlines_ms": [
+              3.5,
+              8
+            ],
+            "observed_b_tick": 6161955412,
+            "observed_delay_ms": 2.98054,
+            "results": [
+              "PASS",
+              "PASS"
+            ],
+            "rule_ids": [
+              2,
+              3
+            ],
+            "target": "SPI"
+          }
+        ],
+        "same_transaction": true
+      },
+      "file": "round_02_s2.tscap",
+      "identity": {
+        "id": 2,
+        "name": "轻度中断竞争",
+        "nominal_period_us": 1000,
+        "packet_hex": "e240404261545a7d7fa5",
+        "phase": 74,
+        "profile": 1
+      },
+      "session_id": 2,
+      "sha256": "525b312107935dfe48c58468cd634104da2025e58df5b2e80fcbd104f3b416f2"
+    },
+    {
+      "audit": {
+        "method": "sample_reconstruction_without_scene_markers",
+        "reasons": [],
+        "rules": [
+          {
+            "matched_delay_ms": null,
+            "observed_delay_ms": 4.26792,
+            "result": "TIMEOUT",
+            "rule_id": 0,
+            "sampled_observed_ms": 4.26794
+          },
+          {
+            "matched_delay_ms": 4.26792,
+            "observed_delay_ms": 4.26792,
+            "result": "PASS",
+            "rule_id": 1,
+            "sampled_observed_ms": 4.26794
+          },
+          {
+            "matched_delay_ms": null,
+            "observed_delay_ms": 4.3093,
+            "result": "TIMEOUT",
+            "rule_id": 2,
+            "sampled_observed_ms": 4.30934
+          },
+          {
+            "matched_delay_ms": 4.3093,
+            "observed_delay_ms": 4.3093,
+            "result": "PASS",
+            "rule_id": 3,
+            "sampled_observed_ms": 4.30934
+          }
+        ],
+        "status": "verified"
+      },
+      "deadline_comparison": {
+        "a_tick": 6593261875,
+        "basis": "verified_samples_events_and_identical_A_B_timestamps",
+        "independently_calibrated": false,
+        "pairs": [
+          {
+            "deadlines_ms": [
+              3.5,
+              8
+            ],
+            "observed_b_tick": 6593475271,
+            "observed_delay_ms": 4.26792,
+            "results": [
+              "TIMEOUT",
+              "PASS"
+            ],
+            "rule_ids": [
+              0,
+              1
+            ],
+            "target": "GPIO"
+          },
+          {
+            "deadlines_ms": [
+              3.5,
+              8
+            ],
+            "observed_b_tick": 6593477340,
+            "observed_delay_ms": 4.3093,
+            "results": [
+              "TIMEOUT",
+              "PASS"
+            ],
+            "rule_ids": [
+              2,
+              3
+            ],
+            "target": "SPI"
+          }
+        ],
+        "same_transaction": true
+      },
+      "file": "round_03_s3.tscap",
+      "identity": {
+        "id": 3,
+        "name": "重度中断竞争",
+        "nominal_period_us": 125,
+        "packet_hex": "e240404362565f7f78a5",
+        "phase": 111,
+        "profile": 2
+      },
+      "session_id": 3,
+      "sha256": "a639af92cad9c5f575000eb0ac2de8a1b1a25249941c535f2fa3c33a467186a3"
+    },
+    {
+      "audit": {
+        "method": "sample_reconstruction_without_scene_markers",
+        "reasons": [],
+        "rules": [
+          {
+            "matched_delay_ms": null,
+            "observed_delay_ms": 4.22606,
+            "result": "TIMEOUT",
+            "rule_id": 0,
+            "sampled_observed_ms": 4.22594
+          },
+          {
+            "matched_delay_ms": 4.22606,
+            "observed_delay_ms": 4.22606,
+            "result": "PASS",
+            "rule_id": 1,
+            "sampled_observed_ms": 4.22594
+          },
+          {
+            "matched_delay_ms": null,
+            "observed_delay_ms": 4.26744,
+            "result": "TIMEOUT",
+            "rule_id": 2,
+            "sampled_observed_ms": 4.26734
+          },
+          {
+            "matched_delay_ms": 4.26744,
+            "observed_delay_ms": 4.26744,
+            "result": "PASS",
+            "rule_id": 3,
+            "sampled_observed_ms": 4.26734
+          }
+        ],
+        "status": "verified"
+      },
+      "deadline_comparison": {
+        "a_tick": 7023740813,
+        "basis": "verified_samples_events_and_identical_A_B_timestamps",
+        "independently_calibrated": false,
+        "pairs": [
+          {
+            "deadlines_ms": [
+              3.5,
+              8
+            ],
+            "observed_b_tick": 7023952116,
+            "observed_delay_ms": 4.22606,
+            "results": [
+              "TIMEOUT",
+              "PASS"
+            ],
+            "rule_ids": [
+              0,
+              1
+            ],
+            "target": "GPIO"
+          },
+          {
+            "deadlines_ms": [
+              3.5,
+              8
+            ],
+            "observed_b_tick": 7023954185,
+            "observed_delay_ms": 4.26744,
+            "results": [
+              "TIMEOUT",
+              "PASS"
+            ],
+            "rule_ids": [
+              2,
+              3
+            ],
+            "target": "SPI"
+          }
+        ],
+        "same_transaction": true
+      },
+      "file": "round_04_s4.tscap",
+      "identity": {
+        "id": 4,
+        "name": "重度中断竞争",
+        "nominal_period_us": 125,
+        "packet_hex": "e24040446259547074a5",
+        "phase": 148,
+        "profile": 2
+      },
+      "session_id": 4,
+      "sha256": "1a1b7fad135fd87fe4322e701755bd29ace07ef841512c9bdb915255bbfb4afa"
+    },
+    {
+      "audit": {
+        "method": "sample_reconstruction_without_scene_markers",
+        "reasons": [],
+        "rules": [
+          {
+            "matched_delay_ms": 2.98074,
+            "observed_delay_ms": 2.98074,
+            "result": "PASS",
+            "rule_id": 0,
+            "sampled_observed_ms": 2.98074
+          },
+          {
+            "matched_delay_ms": 2.98074,
+            "observed_delay_ms": 2.98074,
+            "result": "PASS",
+            "rule_id": 1,
+            "sampled_observed_ms": 2.98074
+          },
+          {
+            "matched_delay_ms": 3.02212,
+            "observed_delay_ms": 3.02212,
+            "result": "PASS",
+            "rule_id": 2,
+            "sampled_observed_ms": 3.02214
+          },
+          {
+            "matched_delay_ms": 3.02212,
+            "observed_delay_ms": 3.02212,
+            "result": "PASS",
+            "rule_id": 3,
+            "sampled_observed_ms": 3.02214
+          }
+        ],
+        "status": "verified"
+      },
+      "deadline_comparison": {
+        "a_tick": 7453699238,
+        "basis": "verified_samples_events_and_identical_A_B_timestamps",
+        "independently_calibrated": false,
+        "pairs": [
+          {
+            "deadlines_ms": [
+              3.5,
+              8
+            ],
+            "observed_b_tick": 7453848275,
+            "observed_delay_ms": 2.98074,
+            "results": [
+              "PASS",
+              "PASS"
+            ],
+            "rule_ids": [
+              0,
+              1
+            ],
+            "target": "GPIO"
+          },
+          {
+            "deadlines_ms": [
+              3.5,
+              8
+            ],
+            "observed_b_tick": 7453850344,
+            "observed_delay_ms": 3.02212,
+            "results": [
+              "PASS",
+              "PASS"
+            ],
+            "rule_ids": [
+              2,
+              3
+            ],
+            "target": "SPI"
+          }
+        ],
+        "same_transaction": true
+      },
+      "file": "round_05_s5.tscap",
+      "identity": {
+        "id": 5,
+        "name": "轻度中断竞争",
+        "nominal_period_us": 1000,
+        "packet_hex": "e2404045615b59727ba5",
+        "phase": 185,
+        "profile": 1
+      },
+      "session_id": 5,
+      "sha256": "47119f49f4fe02f5d97af8f13f231fa38aa074b1a9745ea9b33d13d4ba44fe4d"
+    },
+    {
+      "audit": {
+        "method": "sample_reconstruction_without_scene_markers",
+        "reasons": [],
+        "rules": [
+          {
+            "matched_delay_ms": 2.85502,
+            "observed_delay_ms": 2.85502,
+            "result": "PASS",
+            "rule_id": 0,
+            "sampled_observed_ms": 2.85494
+          },
+          {
+            "matched_delay_ms": 2.85502,
+            "observed_delay_ms": 2.85502,
+            "result": "PASS",
+            "rule_id": 1,
+            "sampled_observed_ms": 2.85494
+          },
+          {
+            "matched_delay_ms": 2.89642,
+            "observed_delay_ms": 2.89642,
+            "result": "PASS",
+            "rule_id": 2,
+            "sampled_observed_ms": 2.89634
+          },
+          {
+            "matched_delay_ms": 2.89642,
+            "observed_delay_ms": 2.89642,
+            "result": "PASS",
+            "rule_id": 3,
+            "sampled_observed_ms": 2.89634
+          }
+        ],
+        "status": "verified"
+      },
+      "deadline_comparison": {
+        "a_tick": 7886596525,
+        "basis": "verified_samples_events_and_identical_A_B_timestamps",
+        "independently_calibrated": false,
+        "pairs": [
+          {
+            "deadlines_ms": [
+              3.5,
+              8
+            ],
+            "observed_b_tick": 7886739276,
+            "observed_delay_ms": 2.85502,
+            "results": [
+              "PASS",
+              "PASS"
+            ],
+            "rule_ids": [
+              0,
+              1
+            ],
+            "target": "GPIO"
+          },
+          {
+            "deadlines_ms": [
+              3.5,
+              8
+            ],
+            "observed_b_tick": 7886741346,
+            "observed_delay_ms": 2.89642,
+            "results": [
+              "PASS",
+              "PASS"
+            ],
+            "rule_ids": [
+              2,
+              3
+            ],
+            "target": "SPI"
+          }
+        ],
+        "same_transaction": true
+      },
+      "file": "round_06_s6.tscap",
+      "identity": {
+        "id": 6,
+        "name": "无中断",
+        "nominal_period_us": 0,
+        "packet_hex": "e2404046605d5e747ea5",
+        "phase": 222,
+        "profile": 0
+      },
+      "session_id": 6,
+      "sha256": "74ab9ad3102b7c9a1873d3a61b8eb4cea753d95e4796e6568cf26b788fff09c5"
+    }
+  ],
+  "config": {
+    "baud": 115200,
+    "divisor": 10,
+    "enabled_mask": 15,
+    "post": 42535,
+    "pre": 23000,
+    "rules": [
+      {
+        "action": 2,
+        "edge": 0,
+        "mask": 255,
+        "max_ticks": 175000,
+        "min_ticks": 0,
+        "spi_mask": 0,
+        "spi_value": 0,
+        "target_channel": 1,
+        "target_kind": 0,
+        "value": 165
+      },
+      {
+        "action": 0,
+        "edge": 0,
+        "mask": 255,
+        "max_ticks": 400000,
+        "min_ticks": 0,
+        "spi_mask": 0,
+        "spi_value": 0,
+        "target_channel": 1,
+        "target_kind": 0,
+        "value": 165
+      },
+      {
+        "action": 0,
+        "edge": 0,
+        "mask": 255,
+        "max_ticks": 175000,
+        "min_ticks": 0,
+        "spi_mask": 255,
+        "spi_value": 195,
+        "target_channel": 0,
+        "target_kind": 1,
+        "value": 165
+      },
+      {
+        "action": 0,
+        "edge": 0,
+        "mask": 255,
+        "max_ticks": 400000,
+        "min_ticks": 0,
+        "spi_mask": 255,
+        "spi_value": 195,
+        "target_channel": 0,
+        "target_kind": 1,
+        "value": 165
+      }
+    ],
+    "spi_clk": 2,
+    "spi_cs": 4,
+    "spi_enabled": 1,
+    "spi_mode": 0,
+    "spi_mosi": 3,
+    "uart_channel": 0
+  },
+  "config_id": 2,
+  "deadline_ms": null,
+  "deadlines_ms": [
+    3.5,
+    8
+  ],
+  "experiment_kind": "same_transaction_deadlines",
+  "final_status": {
+    "config_id": 2,
+    "counts": [
+      {
+        "accepted": 1,
+        "cancelled": 0,
+        "early": 0,
+        "incomplete": 0,
+        "overlap": 0,
+        "pass": 1,
+        "timeout": 0
+      },
+      {
+        "accepted": 1,
+        "cancelled": 0,
+        "early": 0,
+        "incomplete": 0,
+        "overlap": 0,
+        "pass": 1,
+        "timeout": 0
+      },
+      {
+        "accepted": 1,
+        "cancelled": 0,
+        "early": 0,
+        "incomplete": 0,
+        "overlap": 0,
+        "pass": 1,
+        "timeout": 0
+      },
+      {
+        "accepted": 1,
+        "cancelled": 0,
+        "early": 0,
+        "incomplete": 0,
+        "overlap": 0,
+        "pass": 1,
+        "timeout": 0
+      }
+    ],
+    "enabled_mask": 15,
+    "primary_rule": 0,
+    "ready": false,
+    "session_id": 6,
+    "state": "FROZEN",
+    "trigger_rule_mask": 1
+  },
+  "firmware_programmed": false,
+  "generated_utc": "2026-10-20T01:34:23.865515+00:00",
+  "groups": [
+    {
+      "count": 2,
+      "name": "无中断",
+      "profile": 0,
+      "rules": {
+        "0": {
+          "observed": {
+            "histogram": [
+              {
+                "count": 1,
+                "high_ms": 2.85446,
+                "low_ms": 2.85438
+              },
+              {
+                "count": 0,
+                "high_ms": 2.85454,
+                "low_ms": 2.85446
+              },
+              {
+                "count": 0,
+                "high_ms": 2.85462,
+                "low_ms": 2.85454
+              },
+              {
+                "count": 0,
+                "high_ms": 2.8547000000000002,
+                "low_ms": 2.85462
+              },
+              {
+                "count": 0,
+                "high_ms": 2.85478,
+                "low_ms": 2.8547000000000002
+              },
+              {
+                "count": 0,
+                "high_ms": 2.85486,
+                "low_ms": 2.85478
+              },
+              {
+                "count": 0,
+                "high_ms": 2.85494,
+                "low_ms": 2.85486
+              },
+              {
+                "count": 1,
+                "high_ms": 2.85502,
+                "low_ms": 2.85494
+              }
+            ],
+            "max_ms": 2.85502,
+            "mean_ms": 2.8547000000000002,
+            "min_ms": 2.85438,
+            "n": 2,
+            "p50_ms": 2.8547000000000002,
+            "p95_ms": 2.854988,
+            "p99_ms": 2.8550136,
+            "span_ms": 0.000640000000000196,
+            "stddev_ms": 0.000320000000000098
+          },
+          "results": {
+            "PASS": 2
+          }
+        },
+        "1": {
+          "observed": {
+            "histogram": [
+              {
+                "count": 1,
+                "high_ms": 2.85446,
+                "low_ms": 2.85438
+              },
+              {
+                "count": 0,
+                "high_ms": 2.85454,
+                "low_ms": 2.85446
+              },
+              {
+                "count": 0,
+                "high_ms": 2.85462,
+                "low_ms": 2.85454
+              },
+              {
+                "count": 0,
+                "high_ms": 2.8547000000000002,
+                "low_ms": 2.85462
+              },
+              {
+                "count": 0,
+                "high_ms": 2.85478,
+                "low_ms": 2.8547000000000002
+              },
+              {
+                "count": 0,
+                "high_ms": 2.85486,
+                "low_ms": 2.85478
+              },
+              {
+                "count": 0,
+                "high_ms": 2.85494,
+                "low_ms": 2.85486
+              },
+              {
+                "count": 1,
+                "high_ms": 2.85502,
+                "low_ms": 2.85494
+              }
+            ],
+            "max_ms": 2.85502,
+            "mean_ms": 2.8547000000000002,
+            "min_ms": 2.85438,
+            "n": 2,
+            "p50_ms": 2.8547000000000002,
+            "p95_ms": 2.854988,
+            "p99_ms": 2.8550136,
+            "span_ms": 0.000640000000000196,
+            "stddev_ms": 0.000320000000000098
+          },
+          "results": {
+            "PASS": 2
+          }
+        },
+        "2": {
+          "observed": {
+            "histogram": [
+              {
+                "count": 1,
+                "high_ms": 2.8958425,
+                "low_ms": 2.89576
+              },
+              {
+                "count": 0,
+                "high_ms": 2.895925,
+                "low_ms": 2.8958425
+              },
+              {
+                "count": 0,
+                "high_ms": 2.8960075,
+                "low_ms": 2.895925
+              },
+              {
+                "count": 0,
+                "high_ms": 2.89609,
+                "low_ms": 2.8960075
+              },
+              {
+                "count": 0,
+                "high_ms": 2.8961725,
+                "low_ms": 2.89609
+              },
+              {
+                "count": 0,
+                "high_ms": 2.896255,
+                "low_ms": 2.8961725
+              },
+              {
+                "count": 0,
+                "high_ms": 2.8963375,
+                "low_ms": 2.896255
+              },
+              {
+                "count": 1,
+                "high_ms": 2.89642,
+                "low_ms": 2.8963375
+              }
+            ],
+            "max_ms": 2.89642,
+            "mean_ms": 2.89609,
+            "min_ms": 2.89576,
+            "n": 2,
+            "p50_ms": 2.89609,
+            "p95_ms": 2.896387,
+            "p99_ms": 2.8964134,
+            "span_ms": 0.0006599999999998829,
+            "stddev_ms": 0.00032999999999994145
+          },
+          "results": {
+            "PASS": 2
+          }
+        },
+        "3": {
+          "observed": {
+            "histogram": [
+              {
+                "count": 1,
+                "high_ms": 2.8958425,
+                "low_ms": 2.89576
+              },
+              {
+                "count": 0,
+                "high_ms": 2.895925,
+                "low_ms": 2.8958425
+              },
+              {
+                "count": 0,
+                "high_ms": 2.8960075,
+                "low_ms": 2.895925
+              },
+              {
+                "count": 0,
+                "high_ms": 2.89609,
+                "low_ms": 2.8960075
+              },
+              {
+                "count": 0,
+                "high_ms": 2.8961725,
+                "low_ms": 2.89609
+              },
+              {
+                "count": 0,
+                "high_ms": 2.896255,
+                "low_ms": 2.8961725
+              },
+              {
+                "count": 0,
+                "high_ms": 2.8963375,
+                "low_ms": 2.896255
+              },
+              {
+                "count": 1,
+                "high_ms": 2.89642,
+                "low_ms": 2.8963375
+              }
+            ],
+            "max_ms": 2.89642,
+            "mean_ms": 2.89609,
+            "min_ms": 2.89576,
+            "n": 2,
+            "p50_ms": 2.89609,
+            "p95_ms": 2.896387,
+            "p99_ms": 2.8964134,
+            "span_ms": 0.0006599999999998829,
+            "stddev_ms": 0.00032999999999994145
+          },
+          "results": {
+            "PASS": 2
+          }
+        }
+      }
+    },
+    {
+      "count": 2,
+      "name": "轻度中断竞争",
+      "profile": 1,
+      "rules": {
+        "0": {
+          "observed": {
+            "histogram": [
+              {
+                "count": 1,
+                "high_ms": 2.944375,
+                "low_ms": 2.93918
+              },
+              {
+                "count": 0,
+                "high_ms": 2.94957,
+                "low_ms": 2.944375
+              },
+              {
+                "count": 0,
+                "high_ms": 2.954765,
+                "low_ms": 2.94957
+              },
+              {
+                "count": 0,
+                "high_ms": 2.9599599999999997,
+                "low_ms": 2.954765
+              },
+              {
+                "count": 0,
+                "high_ms": 2.9651549999999998,
+                "low_ms": 2.9599599999999997
+              },
+              {
+                "count": 0,
+                "high_ms": 2.97035,
+                "low_ms": 2.9651549999999998
+              },
+              {
+                "count": 0,
+                "high_ms": 2.975545,
+                "low_ms": 2.97035
+              },
+              {
+                "count": 1,
+                "high_ms": 2.98074,
+                "low_ms": 2.975545
+              }
+            ],
+            "max_ms": 2.98074,
+            "mean_ms": 2.9599599999999997,
+            "min_ms": 2.93918,
+            "n": 2,
+            "p50_ms": 2.9599599999999997,
+            "p95_ms": 2.978662,
+            "p99_ms": 2.9803243999999998,
+            "span_ms": 0.04156000000000004,
+            "stddev_ms": 0.02078000000000002
+          },
+          "results": {
+            "PASS": 2
+          }
+        },
+        "1": {
+          "observed": {
+            "histogram": [
+              {
+                "count": 1,
+                "high_ms": 2.944375,
+                "low_ms": 2.93918
+              },
+              {
+                "count": 0,
+                "high_ms": 2.94957,
+                "low_ms": 2.944375
+              },
+              {
+                "count": 0,
+                "high_ms": 2.954765,
+                "low_ms": 2.94957
+              },
+              {
+                "count": 0,
+                "high_ms": 2.9599599999999997,
+                "low_ms": 2.954765
+              },
+              {
+                "count": 0,
+                "high_ms": 2.9651549999999998,
+                "low_ms": 2.9599599999999997
+              },
+              {
+                "count": 0,
+                "high_ms": 2.97035,
+                "low_ms": 2.9651549999999998
+              },
+              {
+                "count": 0,
+                "high_ms": 2.975545,
+                "low_ms": 2.97035
+              },
+              {
+                "count": 1,
+                "high_ms": 2.98074,
+                "low_ms": 2.975545
+              }
+            ],
+            "max_ms": 2.98074,
+            "mean_ms": 2.9599599999999997,
+            "min_ms": 2.93918,
+            "n": 2,
+            "p50_ms": 2.9599599999999997,
+            "p95_ms": 2.978662,
+            "p99_ms": 2.9803243999999998,
+            "span_ms": 0.04156000000000004,
+            "stddev_ms": 0.02078000000000002
+          },
+          "results": {
+            "PASS": 2
+          }
+        },
+        "2": {
+          "observed": {
+            "histogram": [
+              {
+                "count": 1,
+                "high_ms": 2.9857375,
+                "low_ms": 2.98054
+              },
+              {
+                "count": 0,
+                "high_ms": 2.990935,
+                "low_ms": 2.9857375
+              },
+              {
+                "count": 0,
+                "high_ms": 2.9961325,
+                "low_ms": 2.990935
+              },
+              {
+                "count": 0,
+                "high_ms": 3.0013300000000003,
+                "low_ms": 2.9961325
+              },
+              {
+                "count": 0,
+                "high_ms": 3.0065275000000002,
+                "low_ms": 3.0013300000000003
+              },
+              {
+                "count": 0,
+                "high_ms": 3.011725,
+                "low_ms": 3.0065275000000002
+              },
+              {
+                "count": 0,
+                "high_ms": 3.0169225,
+                "low_ms": 3.011725
+              },
+              {
+                "count": 1,
+                "high_ms": 3.02212,
+                "low_ms": 3.0169225
+              }
+            ],
+            "max_ms": 3.02212,
+            "mean_ms": 3.0013300000000003,
+            "min_ms": 2.98054,
+            "n": 2,
+            "p50_ms": 3.0013300000000003,
+            "p95_ms": 3.020041,
+            "p99_ms": 3.0217042000000003,
+            "span_ms": 0.04158000000000017,
+            "stddev_ms": 0.020790000000000086
+          },
+          "results": {
+            "PASS": 2
+          }
+        },
+        "3": {
+          "observed": {
+            "histogram": [
+              {
+                "count": 1,
+                "high_ms": 2.9857375,
+                "low_ms": 2.98054
+              },
+              {
+                "count": 0,
+                "high_ms": 2.990935,
+                "low_ms": 2.9857375
+              },
+              {
+                "count": 0,
+                "high_ms": 2.9961325,
+                "low_ms": 2.990935
+              },
+              {
+                "count": 0,
+                "high_ms": 3.0013300000000003,
+                "low_ms": 2.9961325
+              },
+              {
+                "count": 0,
+                "high_ms": 3.0065275000000002,
+                "low_ms": 3.0013300000000003
+              },
+              {
+                "count": 0,
+                "high_ms": 3.011725,
+                "low_ms": 3.0065275000000002
+              },
+              {
+                "count": 0,
+                "high_ms": 3.0169225,
+                "low_ms": 3.011725
+              },
+              {
+                "count": 1,
+                "high_ms": 3.02212,
+                "low_ms": 3.0169225
+              }
+            ],
+            "max_ms": 3.02212,
+            "mean_ms": 3.0013300000000003,
+            "min_ms": 2.98054,
+            "n": 2,
+            "p50_ms": 3.0013300000000003,
+            "p95_ms": 3.020041,
+            "p99_ms": 3.0217042000000003,
+            "span_ms": 0.04158000000000017,
+            "stddev_ms": 0.020790000000000086
+          },
+          "results": {
+            "PASS": 2
+          }
+        }
+      }
+    },
+    {
+      "count": 2,
+      "name": "重度中断竞争",
+      "profile": 2,
+      "rules": {
+        "0": {
+          "observed": {
+            "histogram": [
+              {
+                "count": 1,
+                "high_ms": 4.2312925,
+                "low_ms": 4.22606
+              },
+              {
+                "count": 0,
+                "high_ms": 4.236525,
+                "low_ms": 4.2312925
+              },
+              {
+                "count": 0,
+                "high_ms": 4.2417575,
+                "low_ms": 4.236525
+              },
+              {
+                "count": 0,
+                "high_ms": 4.24699,
+                "low_ms": 4.2417575
+              },
+              {
+                "count": 0,
+                "high_ms": 4.2522225,
+                "low_ms": 4.24699
+              },
+              {
+                "count": 0,
+                "high_ms": 4.257455,
+                "low_ms": 4.2522225
+              },
+              {
+                "count": 0,
+                "high_ms": 4.2626875,
+                "low_ms": 4.257455
+              },
+              {
+                "count": 1,
+                "high_ms": 4.26792,
+                "low_ms": 4.2626875
+              }
+            ],
+            "max_ms": 4.26792,
+            "mean_ms": 4.24699,
+            "min_ms": 4.22606,
+            "n": 2,
+            "p50_ms": 4.24699,
+            "p95_ms": 4.265827,
+            "p99_ms": 4.2675014000000004,
+            "span_ms": 0.041859999999999786,
+            "stddev_ms": 0.020929999999999893
+          },
+          "results": {
+            "TIMEOUT": 2
+          }
+        },
+        "1": {
+          "observed": {
+            "histogram": [
+              {
+                "count": 1,
+                "high_ms": 4.2312925,
+                "low_ms": 4.22606
+              },
+              {
+                "count": 0,
+                "high_ms": 4.236525,
+                "low_ms": 4.2312925
+              },
+              {
+                "count": 0,
+                "high_ms": 4.2417575,
+                "low_ms": 4.236525
+              },
+              {
+                "count": 0,
+                "high_ms": 4.24699,
+                "low_ms": 4.2417575
+              },
+              {
+                "count": 0,
+                "high_ms": 4.2522225,
+                "low_ms": 4.24699
+              },
+              {
+                "count": 0,
+                "high_ms": 4.257455,
+                "low_ms": 4.2522225
+              },
+              {
+                "count": 0,
+                "high_ms": 4.2626875,
+                "low_ms": 4.257455
+              },
+              {
+                "count": 1,
+                "high_ms": 4.26792,
+                "low_ms": 4.2626875
+              }
+            ],
+            "max_ms": 4.26792,
+            "mean_ms": 4.24699,
+            "min_ms": 4.22606,
+            "n": 2,
+            "p50_ms": 4.24699,
+            "p95_ms": 4.265827,
+            "p99_ms": 4.2675014000000004,
+            "span_ms": 0.041859999999999786,
+            "stddev_ms": 0.020929999999999893
+          },
+          "results": {
+            "PASS": 2
+          }
+        },
+        "2": {
+          "observed": {
+            "histogram": [
+              {
+                "count": 1,
+                "high_ms": 4.2726725,
+                "low_ms": 4.26744
+              },
+              {
+                "count": 0,
+                "high_ms": 4.277905,
+                "low_ms": 4.2726725
+              },
+              {
+                "count": 0,
+                "high_ms": 4.2831375,
+                "low_ms": 4.277905
+              },
+              {
+                "count": 0,
+                "high_ms": 4.2883700000000005,
+                "low_ms": 4.2831375
+              },
+              {
+                "count": 0,
+                "high_ms": 4.2936025,
+                "low_ms": 4.2883700000000005
+              },
+              {
+                "count": 0,
+                "high_ms": 4.298835,
+                "low_ms": 4.2936025
+              },
+              {
+                "count": 0,
+                "high_ms": 4.3040675,
+                "low_ms": 4.298835
+              },
+              {
+                "count": 1,
+                "high_ms": 4.3093,
+                "low_ms": 4.3040675
+              }
+            ],
+            "max_ms": 4.3093,
+            "mean_ms": 4.2883700000000005,
+            "min_ms": 4.26744,
+            "n": 2,
+            "p50_ms": 4.2883700000000005,
+            "p95_ms": 4.307207,
+            "p99_ms": 4.308881400000001,
+            "span_ms": 0.041860000000000674,
+            "stddev_ms": 0.020930000000000337
+          },
+          "results": {
+            "TIMEOUT": 2
+          }
+        },
+        "3": {
+          "observed": {
+            "histogram": [
+              {
+                "count": 1,
+                "high_ms": 4.2726725,
+                "low_ms": 4.26744
+              },
+              {
+                "count": 0,
+                "high_ms": 4.277905,
+                "low_ms": 4.2726725
+              },
+              {
+                "count": 0,
+                "high_ms": 4.2831375,
+                "low_ms": 4.277905
+              },
+              {
+                "count": 0,
+                "high_ms": 4.2883700000000005,
+                "low_ms": 4.2831375
+              },
+              {
+                "count": 0,
+                "high_ms": 4.2936025,
+                "low_ms": 4.2883700000000005
+              },
+              {
+                "count": 0,
+                "high_ms": 4.298835,
+                "low_ms": 4.2936025
+              },
+              {
+                "count": 0,
+                "high_ms": 4.3040675,
+                "low_ms": 4.298835
+              },
+              {
+                "count": 1,
+                "high_ms": 4.3093,
+                "low_ms": 4.3040675
+              }
+            ],
+            "max_ms": 4.3093,
+            "mean_ms": 4.2883700000000005,
+            "min_ms": 4.26744,
+            "n": 2,
+            "p50_ms": 4.2883700000000005,
+            "p95_ms": 4.307207,
+            "p99_ms": 4.308881400000001,
+            "span_ms": 0.041860000000000674,
+            "stddev_ms": 0.020930000000000337
+          },
+          "results": {
+            "PASS": 2
+          }
+        }
+      }
+    }
+  ],
+  "independent_instrument_verified": false,
+  "initial_link_counters": {
+    "crc_errors": 0,
+    "retries": 0
+  },
+  "initial_status": {
+    "config_id": 1,
+    "counts": [
+      {
+        "accepted": 0,
+        "cancelled": 0,
+        "early": 0,
+        "incomplete": 0,
+        "overlap": 0,
+        "pass": 0,
+        "timeout": 0
+      },
+      {
+        "accepted": 0,
+        "cancelled": 0,
+        "early": 0,
+        "incomplete": 0,
+        "overlap": 0,
+        "pass": 0,
+        "timeout": 0
+      },
+      {
+        "accepted": 0,
+        "cancelled": 0,
+        "early": 0,
+        "incomplete": 0,
+        "overlap": 0,
+        "pass": 0,
+        "timeout": 0
+      },
+      {
+        "accepted": 0,
+        "cancelled": 0,
+        "early": 0,
+        "incomplete": 0,
+        "overlap": 0,
+        "pass": 0,
+        "timeout": 0
+      }
+    ],
+    "enabled_mask": 1,
+    "primary_rule": null,
+    "ready": false,
+    "session_id": 0,
+    "state": "IDLE",
+    "trigger_rule_mask": 0
+  },
+  "last_capture_frozen": true,
+  "last_capture_saved": true,
+  "latest_record": "round_06_s6.tscap",
+  "mcu_internal_result_checked": false,
+  "new_link_counters": {
+    "crc_errors": 0,
+    "retries": 0
+  },
+  "passed": true,
+  "protected_previous": null,
+  "rule_labels": [
+    "GPIO · 3.5 ms",
+    "GPIO · 8 ms",
+    "SPI · 3.5 ms",
+    "SPI · 8 ms"
+  ],
+  "schema": 1,
+  "seconds": 51.86477220000006,
+  "source": "gui_same_transaction_deadlines_collection"
+}

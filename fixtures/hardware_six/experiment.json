@@ -1,0 +1,233 @@
+{
+  "cases": [
+    {
+      "file": "round_1_s1083.tscap",
+      "sha256": "1fb9a295ea97e5c7895b6fb20aacbff901f4cbc029edf1fa200844dcb33f389e",
+      "verification": {
+        "events": 37,
+        "independently_calibrated": false,
+        "passed": true,
+        "rules": [
+          {
+            "delay_ms": 1.01642,
+            "result": "PASS",
+            "rule_id": 0
+          },
+          {
+            "delay_ms": null,
+            "result": "TIMEOUT",
+            "rule_id": 1
+          },
+          {
+            "delay_ms": 1.06032,
+            "result": "PASS",
+            "rule_id": 2
+          },
+          {
+            "delay_ms": null,
+            "result": "TIMEOUT",
+            "rule_id": 3
+          }
+        ],
+        "samples": 65536,
+        "scene": "normal",
+        "spi_bytes": [
+          195
+        ],
+        "spi_errors": 0,
+        "waveform_event_metadata_consistent": true
+      }
+    },
+    {
+      "file": "round_2_s1084.tscap",
+      "sha256": "f85f30b8817751d065daa7c27483c33a272fad69abf761d32e7522b650d7d9d8",
+      "verification": {
+        "events": 37,
+        "independently_calibrated": false,
+        "passed": true,
+        "rules": [
+          {
+            "delay_ms": 0.21664,
+            "result": "EARLY",
+            "rule_id": 0
+          },
+          {
+            "delay_ms": 0.21664,
+            "result": "PASS",
+            "rule_id": 1
+          },
+          {
+            "delay_ms": 0.2605,
+            "result": "PASS",
+            "rule_id": 2
+          },
+          {
+            "delay_ms": null,
+            "result": "TIMEOUT",
+            "rule_id": 3
+          }
+        ],
+        "samples": 65536,
+        "scene": "early",
+        "spi_bytes": [
+          195
+        ],
+        "spi_errors": 0,
+        "waveform_event_metadata_consistent": true
+      }
+    },
+    {
+      "file": "round_3_s1085.tscap",
+      "sha256": "9bd97d430647f8e077b051cc26e6e3414c3037b22bc53c282c14260fec526b96",
+      "verification": {
+        "events": 39,
+        "independently_calibrated": false,
+        "passed": true,
+        "rules": [
+          {
+            "delay_ms": null,
+            "result": "TIMEOUT",
+            "rule_id": 0
+          },
+          {
+            "delay_ms": null,
+            "result": "TIMEOUT",
+            "rule_id": 1
+          },
+          {
+            "delay_ms": 2.267,
+            "result": "PASS",
+            "rule_id": 2
+          },
+          {
+            "delay_ms": null,
+            "result": "TIMEOUT",
+            "rule_id": 3
+          }
+        ],
+        "samples": 65536,
+        "scene": "late",
+        "spi_bytes": [
+          195
+        ],
+        "spi_errors": 0,
+        "waveform_event_metadata_consistent": true
+      }
+    },
+    {
+      "file": "round_4_s1086.tscap",
+      "sha256": "8bc9d0f45d142f5023ab764d3fb8ebe3c80ac01255e588f156dd472f606df93d",
+      "verification": {
+        "events": 19,
+        "independently_calibrated": false,
+        "passed": true,
+        "rules": [
+          {
+            "delay_ms": null,
+            "result": "TIMEOUT",
+            "rule_id": 0
+          },
+          {
+            "delay_ms": null,
+            "result": "TIMEOUT",
+            "rule_id": 1
+          },
+          {
+            "delay_ms": null,
+            "result": "TIMEOUT",
+            "rule_id": 2
+          },
+          {
+            "delay_ms": null,
+            "result": "TIMEOUT",
+            "rule_id": 3
+          }
+        ],
+        "samples": 65536,
+        "scene": "missing",
+        "spi_bytes": [],
+        "spi_errors": 0,
+        "waveform_event_metadata_consistent": true
+      }
+    },
+    {
+      "file": "round_5_s1087.tscap",
+      "sha256": "c394c3c9a57cd59468c5f0f3ad2b33bb53cf89de854fb20ad56a69906be1c39b",
+      "verification": {
+        "events": 39,
+        "independently_calibrated": false,
+        "passed": true,
+        "rules": [
+          {
+            "delay_ms": 1.01896,
+            "result": "PASS",
+            "rule_id": 0
+          },
+          {
+            "delay_ms": null,
+            "result": "TIMEOUT",
+            "rule_id": 1
+          },
+          {
+            "delay_ms": null,
+            "result": "TIMEOUT",
+            "rule_id": 2
+          },
+          {
+            "delay_ms": 1.0632,
+            "result": "PASS",
+            "rule_id": 3
+          }
+        ],
+        "samples": 65536,
+        "scene": "wrong_byte",
+        "spi_bytes": [
+          60
+        ],
+        "spi_errors": 0,
+        "waveform_event_metadata_consistent": true
+      }
+    },
+    {
+      "file": "round_6_s1088.tscap",
+      "sha256": "96e71736ef58d8c830f7ff88b92b5fad12bbe1c6c755865920c99148267db67a",
+      "verification": {
+        "events": 32,
+        "independently_calibrated": false,
+        "passed": true,
+        "rules": [
+          {
+            "delay_ms": 1.01594,
+            "result": "PASS",
+            "rule_id": 0
+          },
+          {
+            "delay_ms": null,
+            "result": "TIMEOUT",
+            "rule_id": 1
+          },
+          {
+            "delay_ms": null,
+            "result": "TIMEOUT",
+            "rule_id": 2
+          },
+          {
+            "delay_ms": null,
+            "result": "TIMEOUT",
+            "rule_id": 3
+          }
+        ],
+        "samples": 65536,
+        "scene": "truncated",
+        "spi_bytes": [],
+        "spi_errors": 1,
+        "waveform_event_metadata_consistent": true
+      }
+    }
+  ],
+  "generated_utc": "2026-10-11T06:36:09.797207+00:00",
+  "independent_instrument_verified": false,
+  "passed": true,
+  "schema": 1,
+  "source": "external_stm32"
+}

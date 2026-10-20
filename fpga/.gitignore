@@ -1,0 +1,11 @@
+.Xil/
+*.jou
+*.log
+vivado*.backup.*
+source_stage.cache/
+source_stage.gen/
+source_stage.hw/
+source_stage.ip_user_files/
+source_stage.runs/
+source_stage.sim/
+source_stage.srcs/

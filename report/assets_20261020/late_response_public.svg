@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600">
+<style>text{font-family:'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#111827;font-size:20px}.title{font-size:26px;font-weight:700}.small{font-size:17px}.line{stroke:#475569;stroke-width:2}</style>
+<rect width="1200" height="600" fill="white"/><text x="30" y="40" class="title">3.5 ms窄窗 任务27重负载关键事件</text>
+<rect x="180" y="110" width="700" height="350" fill="#f2f6fa"/><rect x="880" y="110" width="240" height="350" fill="#fff4e6"/>
+<text x="310" y="95">允许响应区间</text><text x="920" y="95">期限之后</text>
+<path d="M180 110 V480" stroke="#56677a" stroke-width="2" stroke-dasharray="5 5"/><path d="M880 110 V480" stroke="#9e6929" stroke-width="2" stroke-dasharray="5 5"/>
+<g class="line"><path d="M180 170 H1120 M180 270 H1120 M180 370 H1120 M180 445 H1120"/></g>
+<text x="30" y="175">UART A事件</text><text x="30" y="275">GPIO响应</text><text x="30" y="375">SPI字节完成</text><text x="30" y="450">R0超期判定</text>
+<circle cx="180" cy="170" r="7" fill="#506f94"/><text x="200" y="151">0 ms</text>
+<circle cx="1033.624" cy="270" r="7" fill="#506f94"/><text x="805" y="249">实际响应 4.26812 ms</text>
+<circle cx="1041.9" cy="370" r="7" fill="#506f94"/><text x="805" y="349">C3完成 4.30950 ms</text>
+<circle cx="880.004" cy="445" r="7" fill="#9e6929"/><text x="895" y="428" class="small">3.50002 ms</text>
+<path d="M180 490 H1120" stroke="#334155" stroke-width="2"/>
+<g text-anchor="middle" class="small"><text x="180" y="518">0</text><text x="380" y="518">1</text><text x="580" y="518">2</text><text x="780" y="518">3</text><text x="880" y="518">3.5</text><text x="980" y="518">4</text><text x="1080" y="518">4.5</text></g>
+<text x="430" y="551">相对UART A事件的时间 ms</text>
+<text x="30" y="588" class="small">按实物记录时间戳离线重建；超期之后仍保留实际响应，TIMEOUT不等于从未响应</text>
+</svg>

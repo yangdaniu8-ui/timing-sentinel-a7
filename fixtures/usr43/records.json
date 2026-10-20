@@ -1,0 +1,68 @@
+[
+  {
+    "file": "narrow_load0_job0012.tscap",
+    "window_ms": 3.5,
+    "profile": 0,
+    "task": 12,
+    "expected": [
+      "PASS",
+      "PASS"
+    ],
+    "sha256": "c3ec7ef1fcb10c800f89559ca213015f550bee6fc8af5c0200de45f4b2b41ab0"
+  },
+  {
+    "file": "narrow_load1_job0011.tscap",
+    "window_ms": 3.5,
+    "profile": 1,
+    "task": 11,
+    "expected": [
+      "PASS",
+      "PASS"
+    ],
+    "sha256": "9cd0694f4850b27ff48643e5205d5862286fcd9bc230915ee4f62b84d4918015"
+  },
+  {
+    "file": "narrow_load2_job0009.tscap",
+    "window_ms": 3.5,
+    "profile": 2,
+    "task": 9,
+    "expected": [
+      "TIMEOUT",
+      "TIMEOUT"
+    ],
+    "sha256": "5ba8d388c05a93106cef7096c909e21f3d3416859e7d95941f83f5e24abb1a10"
+  },
+  {
+    "file": "wide_load0_job0312.tscap",
+    "window_ms": 8,
+    "profile": 0,
+    "task": 312,
+    "expected": [
+      "PASS",
+      "PASS"
+    ],
+    "sha256": "6b37f3471d7710550f7e255914dc6b034901e0be07949aff4021d3d1b6c843a9"
+  },
+  {
+    "file": "wide_load1_job0311.tscap",
+    "window_ms": 8,
+    "profile": 1,
+    "task": 311,
+    "expected": [
+      "PASS",
+      "PASS"
+    ],
+    "sha256": "1a2f808e6c292913f72923fde4212064898e353da778dde77d0354fcecd3222d"
+  },
+  {
+    "file": "wide_load2_job0309.tscap",
+    "window_ms": 8,
+    "profile": 2,
+    "task": 309,
+    "expected": [
+      "PASS",
+      "PASS"
+    ],
+    "sha256": "21ca05075d569fd8d978c539a44710ed7d477c8545c283b4255becd8a85a21c3"
+  }
+]

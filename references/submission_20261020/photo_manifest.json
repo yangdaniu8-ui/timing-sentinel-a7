@@ -1,0 +1,27 @@
+[
+  {
+    "file": "stm32_wiring.jpg",
+    "sha256": "109f61ba79cfc79880f3b69768eafdc447e6e7cfbba90b8cdd1033f64dda25a7",
+    "bytes": 257107
+  },
+  {
+    "file": "fpga_back.jpg",
+    "sha256": "3a4cc0fad9fe17d222a53c0cc1e21a629e7fdeadaf0e2252b8380d2594044612",
+    "bytes": 179870
+  },
+  {
+    "file": "fpga_front.jpg",
+    "sha256": "f30bb249785ad5075b5bd27103546a1f6e1387cc95519e8a094725e8ac0d12c3",
+    "bytes": 327761
+  },
+  {
+    "file": "system_front.jpg",
+    "sha256": "9576c7e9d5070c1cff3e76720308a53d25fba12e05cfad5cb4d3831b2818c0a0",
+    "bytes": 205655
+  },
+  {
+    "file": "system_oblique.jpg",
+    "sha256": "8274597052083accdfc0a4af8f857ca48f6f14ed053d6d1e3f019008093f85a3",
+    "bytes": 203809
+  }
+]
