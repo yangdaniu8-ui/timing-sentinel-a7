@@ -43,13 +43,17 @@ pwsh -NoProfile -File scripts/build_mcu.ps1 -CompilerBin D:/Keil_v5/ARM/ARMCC/bi
 
 ## 技术文档
 
-当前五部分正文为`report/technical_report_final_revision_20261020.md`，对应已审阅的`docs/technical_report.pdf`（13页，参考文献独占第13页）。正文及图注不列实验完成日期；参考文献出版年份和技术时间数据保留。官方参考模板和照片保存在references内。PDF生成器直接依据模板页边距、字号与结构排版，照片仅作页面旋转，不修改像素。运行环境为Windows，需ReportLab、Pillow及宋体/黑体：
+当前五部分正文为`report/technical_report_skill_revision.md`，对应已审阅的`docs/technical_report.pdf`（14页，技能与协作第13页，参考文献独占第14页）。原报告前12页逐页像素一致。正文及图注不列实验完成日期；参考文献出版年份和技术时间数据保留。官方参考模板和照片保存在references内。PDF生成器直接依据模板页边距、字号与结构排版，照片仅作页面旋转，不修改像素。运行环境为Windows，需ReportLab、Pillow及宋体/黑体：
 
 ```powershell
-python scripts/build_submission_pdf_v3.py --out out/technical_report_v3.pdf
+python scripts/build_submission_pdf_v4.py --out out/technical_report_v4.pdf
 ```
 
-输出需指定不存在的新文件名，生成后仍应逐页检查。仓库提供的PDF已完成逐页视觉检查；视频由作者另行拍摄，不提供虚构演示链接。原`technical_report_template_20261017.md`与`build_submission_pdf.py`保留为历史版本，不是当前报告入口。本次文档修订未重新运行实板实验，也不改变应用或固件。
+输出需指定不存在的新文件名，生成后仍应逐页检查。仓库提供的PDF已完成视觉核对；视频由作者另行拍摄，不提供虚构演示链接。原模板、v3正文及生成器保留为历史版本，不是当前报告入口。本次文档修订未重新运行实板实验，也不改变应用或固件。
+
+## 可复用技能
+
+先读`skill/README.md`。通用校验器只需Python 3.10+标准库，可独立运行，不导入上位机或访问串口。34项测试中33通过、1真实符号链接创建因系统权限skip；链接拒绝及重解析分支另有模拟检查。计数器/FIR是合成数据，隔离目录复用不是新增实板或跨电脑资格。真实协作与纠错记录见`report/llm_collaboration.md`。
 
 ## 版本与完整性
 

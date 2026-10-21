@@ -14,13 +14,16 @@ Timing Sentinel A7 是基于 AMD Artix-7 的数字事件时序诊断样机。它
 
 ## 先看这些
 
-- [最新技术文档 PDF（13页，参考文献独立一页）](docs/technical_report.pdf)
+- [最新技术文档 PDF（14页，参考文献独立一页）](docs/technical_report.pdf)
+- [可复用技能包与离线使用示例](skill/README.md)
+- [大模型协作与真实纠错记录](report/llm_collaboration.md)
+- [技能包提交要求对应表](docs/skill_submission.md)
 - [丝印引脚接线说明](docs/wiring.md)
 - [上位机使用说明](host/packaging/COMPACT_QUICK_START.md)
 - [源码重建与测试](docs/build_and_validation.md)
 - [测试条件与结果](docs/verification.md)
 
-最新技术文档以本仓库 PDF 为准。现有免安装 ZIP 和源码 RAR 内附的是早期文档；此次仅更新报告，程序与固件不变，未重新打包。
+最新技术文档以本仓库PDF为准，新增独立一页说明技能提炼、题目外复用、验证与边界。此次补齐skill目录、真实协作记录及含Skill的新版源码RAR；程序与固件不变，不重打免安装ZIP。现有免安装ZIP仍内附早期报告，请另取最新版；旧源码RAR也不会自动更新。
 
 ## 核心功能
 
@@ -47,7 +50,7 @@ Timing Sentinel A7 是基于 AMD Artix-7 的数字事件时序诊断样机。它
 | 实物实验采样 | 5 MS/s，UART 115200 bit/s，SPI mode0 / 250 kHz |
 | 时基 | 50 MHz标称时基，逻辑20 ns/tick；波形采样200 ns/点 |
 
-`fpga/`为RTL、XDC、测试台、向量与Tcl；`mcu/`为C、启动、链接及本地检查器；`host/`为上位机及测试；`fixtures/`为历史测试输入；`reference_firmware/`为已验参考镜像。`report/`、`references/`和`docs/`提供技术正文、真实照片、模板与PDF。工具安装目录、厂商软件包、虚拟环境、构建缓存和个人Git历史不随仓库发布。
+`fpga/`为RTL、XDC、测试台、向量与Tcl；`mcu/`为C、启动、链接及本地检查器；`host/`为上位机及测试；`fixtures/`为历史测试输入；`reference_firmware/`为已验参考镜像。`skill/`为可复用校验脚本、工作流与示例，`report/`含技术正文及大模型协作记录；`references/`和`docs/`提供真实照片、模板与PDF。工具安装目录、厂商软件包、虚拟环境、构建缓存和个人Git历史不随仓库发布。
 
 ## 运行上位机
 
@@ -65,4 +68,4 @@ pwsh -NoProfile -File scripts/run_host.ps1 -Python "$PWD/.venv/Scripts/python.ex
 
 本项目面向接口联调和教学实验，不是模拟示波器或频谱仪；READY用于实验夹具受控启动，上传期间有采集空档。测试结论按具体配置、记录和版本分别描述。
 
-仓库公开用于作品展示和源码查阅，不自动为项目自有代码追加通用开源许可证。第三方组件的原许可及归属见`third_party/`与`host/packaging/NOTICES.md`。厂商工具和头文件须自行合法取得。
+新编写的通用技能内容按`skill/LICENSE`的MIT许可供他人复用，该许可不改变工程其他自有代码与第三方组件的许可。其他源码公开用于作品展示与查阅，不自动追加全工程通用许可；第三方组件的原许可及归属见`third_party/`与`host/packaging/NOTICES.md`。厂商工具和头文件须自行合法取得。

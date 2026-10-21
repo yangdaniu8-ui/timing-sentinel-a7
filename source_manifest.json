@@ -10,20 +10,24 @@
       "sha256": "8d2f45eccb6b599c9baad563e6d93897bb6d42f1cedced497b902f588ca1c5b0"
     },
     "README.md": {
-      "bytes": 4481,
-      "sha256": "96a383a5fdb8426ea02ad66deabfd7f8912ee3559fe00be393ce31b24ce901ec"
+      "bytes": 5051,
+      "sha256": "16aecd642989192e39c9a9595de63d86411700945a7430c994d263aec61da716"
     },
     "docs/build_and_validation.md": {
-      "bytes": 3672,
-      "sha256": "e4cf993b831c7187b465c269e8f5189d4d5fca0a8c326a658edd9c1de807d2d0"
+      "bytes": 4103,
+      "sha256": "55a1d5ad18ac1ed196ae38f12657cccb8176abf7d01ed2592fd7b87c7e861df0"
     },
     "docs/releases.md": {
-      "bytes": 2497,
-      "sha256": "7a0e0240a84e3a2d00839bc7a3a4184a244dea29940fb12d6daafb824cf9fee2"
+      "bytes": 3132,
+      "sha256": "9c7c39167b369e2876633043ac3d0841e859f24c1580bf8a187eeb742acf3028"
+    },
+    "docs/skill_submission.md": {
+      "bytes": 1758,
+      "sha256": "2f8c4d8b3ffda0d0fea52b134dd6e39aaa56318e6e26853bb6b67eda529bbe25"
     },
     "docs/technical_report.pdf": {
-      "bytes": 2492830,
-      "sha256": "cf9fbc1b1c7d4b70d34feb0413657957dbe51e45f247bb3ae32eda954199a33e"
+      "bytes": 2508883,
+      "sha256": "c0e29cff73c820b8afe40b71b9141935dd039f743de0c8b36a7037ad6d4832c7"
     },
     "docs/verification.md": {
       "bytes": 2092,
@@ -1309,9 +1313,17 @@
       "bytes": 2635,
       "sha256": "3f7c3d15cbe15bd26f6ea8ac9e2bae88199dbf74370cdee40587fe35badfea67"
     },
+    "report/llm_collaboration.md": {
+      "bytes": 5280,
+      "sha256": "66430558d495bb0158366ee3fbc98f41fdd06e7eca15f1375aa88a86e4f09cdf"
+    },
     "report/technical_report_final_revision_20261020.md": {
       "bytes": 19097,
       "sha256": "cc52175764f83a4d6491e3f2f7a43b33bcf3afde37fb07c5b733d80872f57a15"
+    },
+    "report/technical_report_skill_revision.md": {
+      "bytes": 21605,
+      "sha256": "744083a9272cde03e8e57562d1d24206555d5f72aff4f9096d911b470f0f6d1b"
     },
     "report/technical_report_template_20261017.md": {
       "bytes": 28036,
@@ -1332,6 +1344,10 @@
     "scripts/build_submission_pdf_v3.py": {
       "bytes": 10314,
       "sha256": "5c27f754f0e90668a3283fffce766a2c4164d5dac029adab579256feb1928e9c"
+    },
+    "scripts/build_submission_pdf_v4.py": {
+      "bytes": 10410,
+      "sha256": "c61511f389de47ba2156462a93cabd2f16a12694a7c82a7ef18f089c40a6e400"
     },
     "scripts/mvp1_protocol_cases.py": {
       "bytes": 11921,
@@ -1364,6 +1380,62 @@
     "scripts/verify_package.py": {
       "bytes": 1372,
       "sha256": "5f13a9102fe9ad80e384ff9ecfacbf4e8a9a0ec53b237d14eef0d211d747c782"
+    },
+    "skill/LICENSE": {
+      "bytes": 1080,
+      "sha256": "49b173752e3554c3144579b03f2d4a893aa43d5a0d482814d8205c4e1a62a69a"
+    },
+    "skill/README.md": {
+      "bytes": 5167,
+      "sha256": "0a77899188e91f4b60e02adb18544c87169907f3d859905d939222b4b5249743"
+    },
+    "skill/fpga-evidence-check/SKILL.md": {
+      "bytes": 3266,
+      "sha256": "6e3cd49dfd84be7d089579efa60ec48b61b2631c51f1d10be6fc26f030688a07"
+    },
+    "skill/fpga-evidence-check/examples/counter_actual.csv": {
+      "bytes": 44,
+      "sha256": "7f2f9cb49644a15c70e3dd9cc0ae9314a1996d29527ae37c96784f6c9e07da1b"
+    },
+    "skill/fpga-evidence-check/examples/counter_expected.csv": {
+      "bytes": 44,
+      "sha256": "fde7b74b9e733f4bcdd96afd776cb89bc1417a33a811a6ed78603f730029db4c"
+    },
+    "skill/fpga-evidence-check/examples/fir_actual.csv": {
+      "bytes": 30,
+      "sha256": "7068c26148047d0489216d25fac4e812d4a5b455108b5dce8ec663f9240b22cf"
+    },
+    "skill/fpga-evidence-check/examples/fir_bad.csv": {
+      "bytes": 30,
+      "sha256": "97f8b43c9e97646e16ca4a793e91c094b75198a5051ef0df4c3183af1e998e26"
+    },
+    "skill/fpga-evidence-check/examples/fir_expected.csv": {
+      "bytes": 30,
+      "sha256": "7068c26148047d0489216d25fac4e812d4a5b455108b5dce8ec663f9240b22cf"
+    },
+    "skill/fpga-evidence-check/references/origins.md": {
+      "bytes": 2013,
+      "sha256": "c8da83456df5186e4dbc5e5becd1b1914d6359a1e378725693ec2084170a7f55"
+    },
+    "skill/fpga-evidence-check/references/triage.md": {
+      "bytes": 1344,
+      "sha256": "221e35954c7d8dbede09c9c71ede53df1e32e4ebeeccc6610617a6655296e529"
+    },
+    "skill/fpga-evidence-check/references/validation.md": {
+      "bytes": 2075,
+      "sha256": "9ac0b8bd1f166314a3da5b827ed5c9659bdb819a6ad01b28852389bc0e140d73"
+    },
+    "skill/fpga-evidence-check/scripts/evidence_check.py": {
+      "bytes": 7058,
+      "sha256": "087a9b8f077550999ce93e8f8f631745538ee97ce537ab61434f713f08e95645"
+    },
+    "skill/fpga-evidence-check/scripts/test_evidence_check.py": {
+      "bytes": 9071,
+      "sha256": "195593fcb335bbe929749af3ecc98c2e3c3ec041fd1da16dcec0d77f4160459f"
+    },
+    "skill/fpga-evidence-check/validation_result.json": {
+      "bytes": 2628,
+      "sha256": "6123102eafb474d13d16e14dd3dcb06f12e088d465ab5f711e7f93c517fcb079"
     },
     "third_party/amd_export_tool_notice.md": {
       "bytes": 1436,

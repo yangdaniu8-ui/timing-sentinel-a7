@@ -1,0 +1,100 @@
+{
+  "passed": true,
+  "python": "3.12.14",
+  "platform": "Windows x64",
+  "tests_run": 34,
+  "tests_passed": 33,
+  "skipped": [
+    {
+      "test": "test_link_rejected",
+      "reason": "OS does not permit creating symbolic links"
+    }
+  ],
+  "failures": 0,
+  "errors": 0,
+  "link_and_reparse_guards_tested_without_os_privilege": true,
+  "format_validation_passed": true,
+  "independent_minimal_copy": true,
+  "python_isolated_mode": true,
+  "example_cli_results": [
+    {
+      "scenario": "counter",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "result": {
+        "absolute_tolerance": "0",
+        "actual_rows": 4,
+        "expected_rows": 4,
+        "extra": [],
+        "mismatches": [],
+        "missing": [],
+        "numeric_agreement_only": true,
+        "operation": "compare",
+        "passed": true
+      }
+    },
+    {
+      "scenario": "fir",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "result": {
+        "absolute_tolerance": "0",
+        "actual_rows": 4,
+        "expected_rows": 4,
+        "extra": [],
+        "mismatches": [],
+        "missing": [],
+        "numeric_agreement_only": true,
+        "operation": "compare",
+        "passed": true
+      }
+    },
+    {
+      "scenario": "fir_bad",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "result": {
+        "absolute_tolerance": "0",
+        "actual_rows": 4,
+        "expected_rows": 4,
+        "extra": [],
+        "mismatches": [
+          {
+            "abs_error": "1",
+            "actual": "11",
+            "expected": "10",
+            "id": "y3"
+          }
+        ],
+        "missing": [],
+        "numeric_agreement_only": true,
+        "operation": "compare",
+        "passed": false
+      }
+    }
+  ],
+  "relocated_selected_file_check": {
+    "errors": [],
+    "files": 2,
+    "integrity_only": true,
+    "operation": "check",
+    "passed": true,
+    "unlisted_files_checked": false
+  },
+  "original_project_manifest_check": {
+    "errors": [],
+    "files": 384,
+    "integrity_only": true,
+    "operation": "check",
+    "passed": true,
+    "unlisted_files_checked": false
+  },
+  "actual_project_scope": "Existing selected-file baseline, not a completeness or hardware qualification",
+  "new_hardware_transactions": 0,
+  "serial_opened": false,
+  "tool_input_files_unchanged": true,
+  "scripts_sha256": {
+    "evidence_check.py": "087a9b8f077550999ce93e8f8f631745538ee97ce537ab61434f713f08e95645",
+    "test_evidence_check.py": "195593fcb335bbe929749af3ecc98c2e3c3ec041fd1da16dcec0d77f4160459f"
+  }
+}
