@@ -1,0 +1,29 @@
+{
+  "bram": 26,
+  "constraints_modified": false,
+  "default_drc_errors": 0,
+  "default_drc_warnings": [
+    "PDCN-1569",
+    "PDCN-1569",
+    "PDCN-1569",
+    "RTSTAT-10"
+  ],
+  "ff": 10878,
+  "hold_slack_ns": 0.052,
+  "ila_probes": 5,
+  "lut": 9961,
+  "methodology_warnings": 30,
+  "passed": true,
+  "probe_widths": [
+    48,
+    32,
+    18,
+    29,
+    6
+  ],
+  "production_bit_unchanged": true,
+  "scope": "Separate observational debug build only; no hardware programmed yet",
+  "setup_slack_ns": 3.066,
+  "usr_access": "494C4131",
+  "waivers_created": false
+}

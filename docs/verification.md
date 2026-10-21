@@ -12,6 +12,18 @@
 
 上述实验都按各自版本和原始记录计数，不将一次重复读取当作新任务，也不把历史回放当作实测采集。通信完整性通过记录身份、长度、CRC及样点重判核对。
 
+## 可下载复核的附件
+
+[evidence目录](../evidence/README.md)保留正式综合/实现/时序/DRC报告及仿真日志、600份逐任务原始tscap、12组临时ILA CSV与tscap、Flash及冷启摘要。文件来源和原件哈希见provenance，正式源到镜像绑定见fpga/source_binding；路径遮盖与JSON字段选择均显式标注，不修改原始记录。
+
+本次材料复核重新解码600份历史记录、匹配12组ILA的256个事件；六个分组各100份、共39321600样点、1200条启用规则一致。结果见[evidence_validation.json](evidence_validation.json)。该离线检查不算新上板任务；临时ILA与正式镜像的身份、资源和警告单独列出。
+
+```text
+python -B scripts/verify_evidence.py
+python -B scripts/verify_evidence.py --replay
+python -B scripts/test_verify_evidence.py
+```
+
 ## 软件及文字整理
 
 上位机离线回归435项。交付源码路径迁移与免安装EXE分别做过测试，新EXE支持读取、保存、取消保护、断开重连及历史四规则回放。本仓库的界面/说明文字调整另做回归，不改变判定、采集、协议或固件。

@@ -22,8 +22,10 @@ Timing Sentinel A7 是基于 AMD Artix-7 的数字事件时序诊断样机。它
 - [上位机使用说明](host/packaging/COMPACT_QUICK_START.md)
 - [源码重建与测试](docs/build_and_validation.md)
 - [测试条件与结果](docs/verification.md)
+- [验证证据附件与离线复核方法](evidence/README.md)
+- [自有源码MIT许可与第三方归属](docs/licensing.md)
 
-最新技术文档以本仓库PDF为准，新增独立一页说明技能提炼、题目外复用、验证与边界。此次补齐skill目录、真实协作记录及含Skill的新版源码RAR；程序与固件不变，不重打免安装ZIP。现有免安装ZIP仍内附早期报告，请另取最新版；旧源码RAR也不会自动更新。
+最新技术文档以本仓库PDF为准，包含技能提炼、题目外复用、验证与边界。验证附件提供正式实现报告、600份长测原始记录、12组临时ILA配对及Flash/冷启摘要，可离线复核。此次补齐证据与主体MIT许可，程序、固件和既有运行ZIP不变；Release配套附件与源码包版本见[发布说明](docs/releases.md)。现有免安装ZIP仍内附早期报告，请另取最新版；旧包不会自动更新。
 
 ## 核心功能
 
@@ -68,4 +70,4 @@ pwsh -NoProfile -File scripts/run_host.ps1 -Python "$PWD/.venv/Scripts/python.ex
 
 本项目面向接口联调和教学实验，不是模拟示波器或频谱仪；READY用于实验夹具受控启动，上传期间有采集空档。测试结论按具体配置、记录和版本分别描述。
 
-新编写的通用技能内容按`skill/LICENSE`的MIT许可供他人复用，该许可不改变工程其他自有代码与第三方组件的许可。其他源码公开用于作品展示与查阅，不自动追加全工程通用许可；第三方组件的原许可及归属见`third_party/`与`host/packaging/NOTICES.md`。厂商工具和头文件须自行合法取得。
+主体自有源码采用根[MIT许可](LICENSE)，通用Skill也采用MIT；第三方组件保留原许可，不随主体改为MIT。适用范围、历史运行包说明与第三方归属见[许可说明](docs/licensing.md)。厂商工具和头文件须自行合法取得。

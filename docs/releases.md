@@ -2,7 +2,7 @@
 
 ## 当前技术文档
 
-[最新版技术文档 PDF](technical_report.pdf)为已确认的13页报告，参考文献独立一页；对应正文、插图和生成脚本一并保存在仓库中。此次只修订文档，未改变程序、固件或以下 Release 附件。现有免安装 ZIP 与源码 RAR 内附的报告仍为早期版本，请单独下载仓库中的最新 PDF。
+[最新版技术文档 PDF](technical_report.pdf)为已确认的14页报告，参考文献独立最后一页；对应正文、插图和生成脚本一并保存在仓库中。程序和固件保持冻结。既有免安装ZIP仍内附早期报告，请单独下载最新版；旧附件不覆盖。
 
 ## 0.4.9 · 2026年10月20日
 
@@ -39,3 +39,9 @@ Windows x64免安装版，完整解压后双击`START.cmd`，无需Python/Vivado
 新增`skill/`可复用检查脚本及计数器/FIR离线示例，`report/llm_collaboration.md`保存真实交互节选和纠错说明。技术PDF增至14页，技能说明单独一页，参考文献仍独立最后一页；原前12页图文像素一致。
 
 该补充仅改变材料与新增通用工具，host、MCU、RTL及参考镜像不变；无需重新烧录。免安装ZIP未重建，其附件文档不会自动变化。含Skill的新源码RAR与旧RAR区分，不能以旧包文件名声称已包含新材料。资格范围和官方条款对应见`docs/skill_submission.md`。
+
+## 最终证据与许可补充
+
+主体自有源码现按MIT发布，第三方许可原文保留，详[许可范围](licensing.md)。新增[evidence](../evidence/README.md)及离线校验脚本；600份历史记录和12组ILA配对已复核，不是再次采集或重新刷写。正式源、镜像、报告哈希及Flash/冷启证据分别绑定，验证结果见[evidence_validation.json](evidence_validation.json)。
+
+本次统一源码包为`TimingSentinelA7-AllSource-USR43-UI049-Evidence-MIT.rar`，包括最新14页PDF、主体MIT、Skill、全部源码和验证附件。独立附件`timing_sentinel_evidence.zip`供只查看验证数据的读者使用；其中的`validation.json`是实际离线复核结果。两者均不包含虚拟环境、厂商工具或个人Git历史。旧运行ZIP和EXE字节不改，根目录许可与独立文档补充适用于本次源码交付。

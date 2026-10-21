@@ -1,0 +1,10 @@
+Time resolution is 1 ps
+FIFO_BRAM_WORKER_PASS depth=1 seed=1 cycles=100828 pushes=33467 pops=33434 bytes=202539 resets=64 full_replace=16804
+FIFO_BRAM_WORKER_PASS depth=2 seed=1 cycles=100851 pushes=40010 pops=39940 bytes=240937 resets=64 full_replace=9675
+FIFO_BRAM_WORKER_PASS depth=3 seed=1 cycles=100873 pushes=43022 pops=42944 bytes=259377 resets=64 full_replace=7110
+FIFO_BRAM_WORKER_PASS depth=17 seed=1 cycles=101188 pushes=49043 pops=48816 bytes=294484 resets=64 full_replace=1612
+FIFO_BRAM_WORKER_PASS depth=256 seed=1 cycles=106566 pushes=54552 pops=53829 bytes=315217 resets=64 full_replace=3072
+FIFO_BRAM_WORKER_PASS depth=2048 seed=1 cycles=146886 pushes=85786 pops=84072 bytes=435037 resets=64 full_replace=24576
+FIFO_BRAM_WORKER_PASS depth=2048 seed=2 cycles=146886 pushes=86125 pops=84141 bytes=437419 resets=64 full_replace=24576
+FIFO_BRAM_CONTRACT_PASS depths=1,2,3,17,256,2048 workers=7 random_each=100000
+$finish called at time : 2938080 ns : File "[project_root]/ops/fifo_bram_20261014/tb_fifo_bram.v" Line 92

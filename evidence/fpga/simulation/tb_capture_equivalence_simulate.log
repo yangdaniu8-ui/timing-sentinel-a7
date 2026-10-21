@@ -1,0 +1,5 @@
+Time resolution is 1 ps
+CAPTURE_MITER_PART_PASS bits=4 cycles=51972 reads=2531 cases=10200 seed=14ca701d
+CAPTURE_MITER_PART_PASS bits=16 cycles=4723137 reads=262211 cases=76 seed=14ca701d
+CAPTURE_EQUIVALENCE_PASS full_depth=65536 divisors=4 random_cycles=10000 random_captures=200
+$finish called at time : 94462740 ns : File "[project_root]/ops/capture_20261014/tb_capture_equivalence.v" Line 144

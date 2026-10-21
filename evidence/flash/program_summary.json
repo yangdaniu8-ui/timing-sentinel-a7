@@ -1,0 +1,19 @@
+{
+  "artifacts_sha256": {
+    "flash_program\\engine.log": "72118a585498544b2610256392dc26073f3c739f2b2649cb7766f3f770df7195",
+    "flash_program\\erased_full.bin": "dffab0dd410657cb30c7b2fd7f2586a4792e8472e58882b3532581f8111a646d",
+    "flash_program\\handoff.json": "503fb6523a59aa247c95083b20dc4f458e80bf453bf0e02913b4b7460cbc6639",
+    "flash_program\\programmed_full.bin": "30d42782632c42f327a9d146fe072ea18f131d45a478500707e8581788b0c85b",
+    "program_full_flash.log": "2392a127ce7ff608675331710e4cde641a32c468409f6ccbc66b2969cde785fb"
+  },
+  "assurance": "Exact USR43 full erase, full readback, program and warmboot; new human coldboot pending",
+  "bit_sha256": "b18e94908531ebf2f0218c375f78d815290fbebb554a1c51848f50e4c12a3636",
+  "blank_tail_bytes": 14585204,
+  "flash_bytes": 16777216,
+  "ila_in_flash": false,
+  "image_bytes": 2192012,
+  "mcu_written": false,
+  "passed": true,
+  "payload_sha256": "f9a0061c41c09f88ab67dcc1e74df90b6f0ad1a5b18d6fee54af857753f745df",
+  "physical_power_cycle_verified": false
+}

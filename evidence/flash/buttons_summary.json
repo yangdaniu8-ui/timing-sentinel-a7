@@ -1,0 +1,12 @@
+{
+  "bit_sha256": "b18e94908531ebf2f0218c375f78d815290fbebb554a1c51848f50e4c12a3636",
+  "flash_written": false,
+  "host_record_key0_key1_protection": true,
+  "key0_single_task": true,
+  "key1_owned_record_release": true,
+  "key3_mute": true,
+  "mcu_written": false,
+  "new_tasks": 2,
+  "passed": true,
+  "scope": "Fresh USR43 physical keys, saved raw/SWD/wire and human observations"
+}

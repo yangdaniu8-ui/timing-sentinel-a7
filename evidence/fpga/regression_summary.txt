@@ -1,0 +1,11 @@
+tb_mvp5_protocol MVP5_PROTOCOL_TB_PASS bytes=9675 packets=118
+tb_mvp5_byte_backend MVP5_BYTE_BACKEND_TB_PASS bytes=9675 packets=118
+tb_selector_contract SELECTOR_CONTRACT_PASS frames=21 bytes=8110 calls=13
+tb_selector_byte_backend SELECTOR_BYTE_BACKEND_PASS frames=21 bytes=8110 calls=13
+tb_qor_top QOR_TOP_BYTE_ORACLE_PASS bytes=766 vectors=1114
+tb_mvp5_capture MVP5_CAPTURE_TB_PASS checks=3029 samples=2048
+tb_boundary_capture BOUNDARY_CAPTURE_PASS checks=38
+tb_capture_equivalence CAPTURE_EQUIVALENCE_PASS full_depth=65536 divisors=4 random_cycles=10000 random_captures=200
+tb_capture_window CAPTURE_SPAN_ARITHMETIC_PASS checks=32064
+tb_fifo_bram FIFO_BRAM_CONTRACT_PASS depths=1,2,3,17,256,2048 workers=7 random_each=100000
+SELECTOR_FULL_REGRESSION_PASS fifo_b01

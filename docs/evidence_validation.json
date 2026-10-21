@@ -1,0 +1,67 @@
+{
+  "all_record_ids_unique": true,
+  "cell_counts": [
+    {
+      "deadline_ms": 3.5,
+      "n": 100,
+      "profile": 0
+    },
+    {
+      "deadline_ms": 3.5,
+      "n": 100,
+      "profile": 1
+    },
+    {
+      "deadline_ms": 3.5,
+      "n": 100,
+      "profile": 2
+    },
+    {
+      "deadline_ms": 8,
+      "n": 100,
+      "profile": 0
+    },
+    {
+      "deadline_ms": 8,
+      "n": 100,
+      "profile": 1
+    },
+    {
+      "deadline_ms": 8,
+      "n": 100,
+      "profile": 2
+    }
+  ],
+  "enabled_rule_verdicts": 1200,
+  "evidence_files_unchanged": true,
+  "ila_cases": 12,
+  "ila_event_replays": 12,
+  "ila_rows": 12288,
+  "manifest_files": 659,
+  "matched_ila_events": 256,
+  "new_hardware_transactions": 0,
+  "passed": true,
+  "physical_sample_points": 39321600,
+  "physical_tasks_in_archive": 600,
+  "raw_sample_replays": 600,
+  "serial_opened": false,
+  "verifier_negative_tests": 6,
+  "ila_comparison": {
+    "passed": true,
+    "original_comparison_functions_ast_identical": true,
+    "original_checker_sha256": "3632fa82ad9f0c7755263c8f9b00daad36079dcda5a93f2af7bea13d4a925a97",
+    "published_checker_sha256": "3392b72d09695dd6f043a8fad0346960fce085222e3a03fa72a5ef0e97694b24",
+    "positive_cases": 12,
+    "matched_events": 256,
+    "negative_cases": {
+      "stale_pair": true,
+      "wrong_start_tick": true,
+      "duplicate_trigger": true,
+      "truncated_csv": true,
+      "wrong_probe_width": true
+    },
+    "new_hardware_transactions": 0
+  },
+  "identity": "Historical USR43 captures, read-only offline evidence checks",
+  "source_manifest_sha256": "e61c7f65f62d1b37fa3dd5d62d87310229f303361a9bc77235fd4055828a4ed6"
+}

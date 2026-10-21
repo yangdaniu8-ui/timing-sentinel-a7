@@ -1,0 +1,339 @@
+{
+  "cases": [
+    {
+      "case": "ila_retry12_case01",
+      "config": 6,
+      "deadline_ms": 3.5,
+      "job": 5,
+      "matched_events": 21,
+      "profile": 1,
+      "rules": [
+        {
+          "a_tick": 44471590431,
+          "observed_b_tick": 44471739450,
+          "observed_ms": 2.98038,
+          "result": "PASS",
+          "result_tick": 44471739450,
+          "rule": 0
+        },
+        {
+          "a_tick": 44471590431,
+          "observed_b_tick": 44471741519,
+          "observed_ms": 3.02176,
+          "result": "PASS",
+          "result_tick": 44471741519,
+          "rule": 2
+        }
+      ],
+      "session": 5
+    },
+    {
+      "case": "ila_retry12_case02",
+      "config": 7,
+      "deadline_ms": 3.5,
+      "job": 6,
+      "matched_events": 21,
+      "profile": 0,
+      "rules": [
+        {
+          "a_tick": 45485045236,
+          "observed_b_tick": 45485187954,
+          "observed_ms": 2.85436,
+          "result": "PASS",
+          "result_tick": 45485187954,
+          "rule": 0
+        },
+        {
+          "a_tick": 45485045236,
+          "observed_b_tick": 45485190023,
+          "observed_ms": 2.89574,
+          "result": "PASS",
+          "result_tick": 45485190023,
+          "rule": 2
+        }
+      ],
+      "session": 6
+    },
+    {
+      "case": "ila_retry12_case03",
+      "config": 8,
+      "deadline_ms": 3.5,
+      "job": 7,
+      "matched_events": 21,
+      "profile": 0,
+      "rules": [
+        {
+          "a_tick": 46498506003,
+          "observed_b_tick": 46498648721,
+          "observed_ms": 2.85436,
+          "result": "PASS",
+          "result_tick": 46498648721,
+          "rule": 0
+        },
+        {
+          "a_tick": 46498506003,
+          "observed_b_tick": 46498650790,
+          "observed_ms": 2.89574,
+          "result": "PASS",
+          "result_tick": 46498650790,
+          "rule": 2
+        }
+      ],
+      "session": 7
+    },
+    {
+      "case": "ila_retry12_case04",
+      "config": 9,
+      "deadline_ms": 3.5,
+      "job": 8,
+      "matched_events": 21,
+      "profile": 1,
+      "rules": [
+        {
+          "a_tick": 47509269455,
+          "observed_b_tick": 47509416394,
+          "observed_ms": 2.93878,
+          "result": "PASS",
+          "result_tick": 47509416394,
+          "rule": 0
+        },
+        {
+          "a_tick": 47509269455,
+          "observed_b_tick": 47509418463,
+          "observed_ms": 2.98016,
+          "result": "PASS",
+          "result_tick": 47509418463,
+          "rule": 2
+        }
+      ],
+      "session": 8
+    },
+    {
+      "case": "ila_retry12_case05",
+      "config": 10,
+      "deadline_ms": 3.5,
+      "job": 9,
+      "matched_events": 22,
+      "profile": 2,
+      "rules": [
+        {
+          "a_tick": 48520086667,
+          "observed_b_tick": 48520300032,
+          "observed_ms": 4.2673,
+          "result": "TIMEOUT",
+          "result_tick": 48520261668,
+          "rule": 0
+        },
+        {
+          "a_tick": 48520086667,
+          "observed_b_tick": 48520302038,
+          "observed_ms": 4.30742,
+          "result": "TIMEOUT",
+          "result_tick": 48520261668,
+          "rule": 2
+        }
+      ],
+      "session": 9
+    },
+    {
+      "case": "ila_retry12_case06",
+      "config": 11,
+      "deadline_ms": 3.5,
+      "job": 10,
+      "matched_events": 22,
+      "profile": 2,
+      "rules": [
+        {
+          "a_tick": 49531750973,
+          "observed_b_tick": 49531964362,
+          "observed_ms": 4.26778,
+          "result": "TIMEOUT",
+          "result_tick": 49531925974,
+          "rule": 0
+        },
+        {
+          "a_tick": 49531750973,
+          "observed_b_tick": 49531966431,
+          "observed_ms": 4.30916,
+          "result": "TIMEOUT",
+          "result_tick": 49531925974,
+          "rule": 2
+        }
+      ],
+      "session": 10
+    },
+    {
+      "case": "ila_retry12_case07",
+      "config": 12,
+      "deadline_ms": 8.0,
+      "job": 11,
+      "matched_events": 22,
+      "profile": 1,
+      "rules": [
+        {
+          "a_tick": 50544499960,
+          "observed_b_tick": 50544648971,
+          "observed_ms": 2.98022,
+          "result": "PASS",
+          "result_tick": 50544648971,
+          "rule": 0
+        },
+        {
+          "a_tick": 50544499960,
+          "observed_b_tick": 50544651039,
+          "observed_ms": 3.02158,
+          "result": "PASS",
+          "result_tick": 50544651039,
+          "rule": 2
+        }
+      ],
+      "session": 11
+    },
+    {
+      "case": "ila_retry12_case08",
+      "config": 13,
+      "deadline_ms": 8.0,
+      "job": 12,
+      "matched_events": 22,
+      "profile": 0,
+      "rules": [
+        {
+          "a_tick": 51560514326,
+          "observed_b_tick": 51560657030,
+          "observed_ms": 2.85408,
+          "result": "PASS",
+          "result_tick": 51560657030,
+          "rule": 0
+        },
+        {
+          "a_tick": 51560514326,
+          "observed_b_tick": 51560659036,
+          "observed_ms": 2.8942,
+          "result": "PASS",
+          "result_tick": 51560659036,
+          "rule": 2
+        }
+      ],
+      "session": 12
+    },
+    {
+      "case": "ila_retry12_case09",
+      "config": 14,
+      "deadline_ms": 8.0,
+      "job": 13,
+      "matched_events": 21,
+      "profile": 0,
+      "rules": [
+        {
+          "a_tick": 52571045289,
+          "observed_b_tick": 52571188022,
+          "observed_ms": 2.85466,
+          "result": "PASS",
+          "result_tick": 52571188022,
+          "rule": 0
+        },
+        {
+          "a_tick": 52571045289,
+          "observed_b_tick": 52571190091,
+          "observed_ms": 2.89604,
+          "result": "PASS",
+          "result_tick": 52571190091,
+          "rule": 2
+        }
+      ],
+      "session": 13
+    },
+    {
+      "case": "ila_retry12_case10",
+      "config": 15,
+      "deadline_ms": 8.0,
+      "job": 14,
+      "matched_events": 21,
+      "profile": 1,
+      "rules": [
+        {
+          "a_tick": 53585304465,
+          "observed_b_tick": 53585451407,
+          "observed_ms": 2.93884,
+          "result": "PASS",
+          "result_tick": 53585451407,
+          "rule": 0
+        },
+        {
+          "a_tick": 53585304465,
+          "observed_b_tick": 53585453476,
+          "observed_ms": 2.98022,
+          "result": "PASS",
+          "result_tick": 53585453476,
+          "rule": 2
+        }
+      ],
+      "session": 14
+    },
+    {
+      "case": "ila_retry12_case11",
+      "config": 16,
+      "deadline_ms": 8.0,
+      "job": 15,
+      "matched_events": 21,
+      "profile": 2,
+      "rules": [
+        {
+          "a_tick": 54603800363,
+          "observed_b_tick": 54604013829,
+          "observed_ms": 4.26932,
+          "result": "PASS",
+          "result_tick": 54604013829,
+          "rule": 0
+        },
+        {
+          "a_tick": 54603800363,
+          "observed_b_tick": 54604015898,
+          "observed_ms": 4.3107,
+          "result": "PASS",
+          "result_tick": 54604015898,
+          "rule": 2
+        }
+      ],
+      "session": 15
+    },
+    {
+      "case": "ila_retry12_case12",
+      "config": 17,
+      "deadline_ms": 8.0,
+      "job": 16,
+      "matched_events": 21,
+      "profile": 2,
+      "rules": [
+        {
+          "a_tick": 55616386920,
+          "observed_b_tick": 55616600267,
+          "observed_ms": 4.26694,
+          "result": "PASS",
+          "result_tick": 55616600267,
+          "rule": 0
+        },
+        {
+          "a_tick": 55616386920,
+          "observed_b_tick": 55616602336,
+          "observed_ms": 4.30832,
+          "result": "PASS",
+          "result_tick": 55616602336,
+          "rule": 2
+        }
+      ],
+      "session": 16
+    }
+  ],
+  "crc_errors": 0,
+  "failed_attempts_excluded": [
+    "ila_first_narrow",
+    "ila_live12_case02"
+  ],
+  "ila_rows": 12288,
+  "matched_events": 256,
+  "passed": true,
+  "retries": 0,
+  "sample_count": 786432,
+  "task_count": 12
+}

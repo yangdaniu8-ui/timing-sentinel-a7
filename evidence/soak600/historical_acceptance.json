@@ -1,0 +1,390 @@
+{
+  "bit_sha256": "b18e94908531ebf2f0218c375f78d815290fbebb554a1c51848f50e4c12a3636",
+  "flash_written": false,
+  "groups": {
+    "narrow": {
+      "experiment_sha256": "f671db05a66e0117d485c848a14f6a1eaa92851fac118fca43a43096b48734cf",
+      "first_job": 9,
+      "gpio_statistics": {
+        "0": {
+          "histogram": [
+            {
+              "count": 4,
+              "high_ms": 2.8535399999999997,
+              "low_ms": 2.85336
+            },
+            {
+              "count": 8,
+              "high_ms": 2.85372,
+              "low_ms": 2.8535399999999997
+            },
+            {
+              "count": 16,
+              "high_ms": 2.8539,
+              "low_ms": 2.85372
+            },
+            {
+              "count": 19,
+              "high_ms": 2.8540799999999997,
+              "low_ms": 2.8539
+            },
+            {
+              "count": 19,
+              "high_ms": 2.85426,
+              "low_ms": 2.8540799999999997
+            },
+            {
+              "count": 17,
+              "high_ms": 2.85444,
+              "low_ms": 2.85426
+            },
+            {
+              "count": 13,
+              "high_ms": 2.85462,
+              "low_ms": 2.85444
+            },
+            {
+              "count": 4,
+              "high_ms": 2.8548,
+              "low_ms": 2.85462
+            }
+          ],
+          "max_ms": 2.8548,
+          "mean_ms": 2.8540948,
+          "min_ms": 2.85336,
+          "n": 100,
+          "p50_ms": 2.8541,
+          "p95_ms": 2.85456,
+          "p99_ms": 2.8547406,
+          "span_ms": 0.0014400000000001079,
+          "stddev_ms": 0.00031583058749906325
+        },
+        "1": {
+          "histogram": [
+            {
+              "count": 31,
+              "high_ms": 2.94339,
+              "low_ms": 2.93802
+            },
+            {
+              "count": 0,
+              "high_ms": 2.94876,
+              "low_ms": 2.94339
+            },
+            {
+              "count": 0,
+              "high_ms": 2.95413,
+              "low_ms": 2.94876
+            },
+            {
+              "count": 0,
+              "high_ms": 2.9595000000000002,
+              "low_ms": 2.95413
+            },
+            {
+              "count": 0,
+              "high_ms": 2.96487,
+              "low_ms": 2.9595000000000002
+            },
+            {
+              "count": 0,
+              "high_ms": 2.97024,
+              "low_ms": 2.96487
+            },
+            {
+              "count": 0,
+              "high_ms": 2.97561,
+              "low_ms": 2.97024
+            },
+            {
+              "count": 69,
+              "high_ms": 2.98098,
+              "low_ms": 2.97561
+            }
+          ],
+          "max_ms": 2.98098,
+          "mean_ms": 2.9673894,
+          "min_ms": 2.93802,
+          "n": 100,
+          "p50_ms": 2.98005,
+          "p95_ms": 2.98074,
+          "p99_ms": 2.9809205999999997,
+          "span_ms": 0.04296000000000033,
+          "stddev_ms": 0.019205029436061796
+        },
+        "2": {
+          "histogram": [
+            {
+              "count": 35,
+              "high_ms": 4.2297425,
+              "low_ms": 4.22424
+            },
+            {
+              "count": 0,
+              "high_ms": 4.235245,
+              "low_ms": 4.2297425
+            },
+            {
+              "count": 0,
+              "high_ms": 4.2407474999999994,
+              "low_ms": 4.235245
+            },
+            {
+              "count": 0,
+              "high_ms": 4.24625,
+              "low_ms": 4.2407474999999994
+            },
+            {
+              "count": 0,
+              "high_ms": 4.2517525,
+              "low_ms": 4.24625
+            },
+            {
+              "count": 0,
+              "high_ms": 4.257255,
+              "low_ms": 4.2517525
+            },
+            {
+              "count": 0,
+              "high_ms": 4.262757499999999,
+              "low_ms": 4.257255
+            },
+            {
+              "count": 65,
+              "high_ms": 4.26826,
+              "low_ms": 4.262757499999999
+            }
+          ],
+          "max_ms": 4.26826,
+          "mean_ms": 4.252271400000001,
+          "min_ms": 4.22424,
+          "n": 100,
+          "p50_ms": 4.26619,
+          "p95_ms": 4.267723999999999,
+          "p99_ms": 4.2681214,
+          "span_ms": 0.044019999999999726,
+          "stddev_ms": 0.0197532861580042
+        }
+      },
+      "jobs": 300,
+      "last_job": 308,
+      "passed": true,
+      "profile_counts": {
+        "0": 100,
+        "1": 100,
+        "2": 100
+      },
+      "sealed_summary_sha256": "e8bf1e1d40f3b27af77966ad557d5c5785b92561ee9815ef9c5b9f7642c5d721",
+      "seconds": 2631.8232648,
+      "wire_audit": {
+        "collector_counter_snapshot_before_final_status": {
+          "rx": 21169172,
+          "tx": 656078
+        },
+        "crc_length_version_errors": 0,
+        "includes_final_status": true,
+        "requests": 22351,
+        "runtime_decoder_expiry_not_recorded": true,
+        "rx_bytes": 21169320,
+        "tx_bytes": 656098
+      }
+    },
+    "wide": {
+      "experiment_sha256": "7d56e1f2c4ef13c49699f5a9de58ad9206811431223f8f3c0f93047f04c18632",
+      "first_job": 309,
+      "gpio_statistics": {
+        "0": {
+          "histogram": [
+            {
+              "count": 2,
+              "high_ms": 2.8534575,
+              "low_ms": 2.8532
+            },
+            {
+              "count": 8,
+              "high_ms": 2.8537150000000002,
+              "low_ms": 2.8534575
+            },
+            {
+              "count": 23,
+              "high_ms": 2.8539725000000002,
+              "low_ms": 2.8537150000000002
+            },
+            {
+              "count": 20,
+              "high_ms": 2.8542300000000003,
+              "low_ms": 2.8539725000000002
+            },
+            {
+              "count": 25,
+              "high_ms": 2.8544875,
+              "low_ms": 2.8542300000000003
+            },
+            {
+              "count": 14,
+              "high_ms": 2.854745,
+              "low_ms": 2.8544875
+            },
+            {
+              "count": 6,
+              "high_ms": 2.8550025,
+              "low_ms": 2.854745
+            },
+            {
+              "count": 2,
+              "high_ms": 2.85526,
+              "low_ms": 2.8550025
+            }
+          ],
+          "max_ms": 2.85526,
+          "mean_ms": 2.854187,
+          "min_ms": 2.8532,
+          "n": 100,
+          "p50_ms": 2.85419,
+          "p95_ms": 2.8548,
+          "p99_ms": 2.85526,
+          "span_ms": 0.0020599999999997287,
+          "stddev_ms": 0.0003988721599710871
+        },
+        "1": {
+          "histogram": [
+            {
+              "count": 31,
+              "high_ms": 2.943385,
+              "low_ms": 2.938
+            },
+            {
+              "count": 0,
+              "high_ms": 2.94877,
+              "low_ms": 2.943385
+            },
+            {
+              "count": 0,
+              "high_ms": 2.954155,
+              "low_ms": 2.94877
+            },
+            {
+              "count": 0,
+              "high_ms": 2.95954,
+              "low_ms": 2.954155
+            },
+            {
+              "count": 0,
+              "high_ms": 2.964925,
+              "low_ms": 2.95954
+            },
+            {
+              "count": 0,
+              "high_ms": 2.97031,
+              "low_ms": 2.964925
+            },
+            {
+              "count": 0,
+              "high_ms": 2.975695,
+              "low_ms": 2.97031
+            },
+            {
+              "count": 69,
+              "high_ms": 2.98108,
+              "low_ms": 2.975695
+            }
+          ],
+          "max_ms": 2.98108,
+          "mean_ms": 2.9673982,
+          "min_ms": 2.938,
+          "n": 100,
+          "p50_ms": 2.98006,
+          "p95_ms": 2.980703,
+          "p99_ms": 2.9809414,
+          "span_ms": 0.043079999999999785,
+          "stddev_ms": 0.019221817831828483
+        },
+        "2": {
+          "histogram": [
+            {
+              "count": 34,
+              "high_ms": 4.2289200000000005,
+              "low_ms": 4.2233
+            },
+            {
+              "count": 0,
+              "high_ms": 4.23454,
+              "low_ms": 4.2289200000000005
+            },
+            {
+              "count": 0,
+              "high_ms": 4.2401599999999995,
+              "low_ms": 4.23454
+            },
+            {
+              "count": 0,
+              "high_ms": 4.24578,
+              "low_ms": 4.2401599999999995
+            },
+            {
+              "count": 0,
+              "high_ms": 4.2514,
+              "low_ms": 4.24578
+            },
+            {
+              "count": 0,
+              "high_ms": 4.25702,
+              "low_ms": 4.2514
+            },
+            {
+              "count": 0,
+              "high_ms": 4.262639999999999,
+              "low_ms": 4.25702
+            },
+            {
+              "count": 66,
+              "high_ms": 4.26826,
+              "low_ms": 4.262639999999999
+            }
+          ],
+          "max_ms": 4.26826,
+          "mean_ms": 4.252604,
+          "min_ms": 4.2233,
+          "n": 100,
+          "p50_ms": 4.26615,
+          "p95_ms": 4.2677059999999996,
+          "p99_ms": 4.2679036,
+          "span_ms": 0.04495999999999967,
+          "stddev_ms": 0.01960881781240266
+        }
+      },
+      "jobs": 300,
+      "last_job": 608,
+      "passed": true,
+      "profile_counts": {
+        "0": 100,
+        "1": 100,
+        "2": 100
+      },
+      "sealed_summary_sha256": "8e64da85efd47db065c0fe5f1a19526b564a41f4338731118819b89efea7f263",
+      "seconds": 2632.1094432,
+      "wire_audit": {
+        "collector_counter_snapshot_before_final_status": {
+          "rx": 21178532,
+          "tx": 656078
+        },
+        "crc_length_version_errors": 0,
+        "includes_final_status": true,
+        "requests": 22351,
+        "runtime_decoder_expiry_not_recorded": true,
+        "rx_bytes": 21178680,
+        "tx_bytes": 656098
+      }
+    }
+  },
+  "keys_proof_sha256": "087d78fedbc6729053f8f4724899f631f777bea4001aa23396c56c3bcefeb347",
+  "mcu_programmed": false,
+  "mcu_reset": false,
+  "new_jobs": 600,
+  "passed": true,
+  "raw_rule_verdicts": 1200,
+  "requested_jobs": 600,
+  "sample_points": 39321600,
+  "seconds": 5399.412805,
+  "selection": "300 narrow +300 wide READY-gated real FIR tasks;100per load/window cell, not six original synthetic-fault scenes"
+}

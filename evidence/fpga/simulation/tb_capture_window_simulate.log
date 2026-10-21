@@ -1,0 +1,3 @@
+Time resolution is 1 ps
+CAPTURE_SPAN_ARITHMETIC_PASS checks=32064
+$finish called at time : 0 fs : File "[project_root]/ops/capture_20261014/tb_capture_window.v" Line 61

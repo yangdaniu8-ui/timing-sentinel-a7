@@ -1,0 +1,3 @@
+Time resolution is 1 ps
+MVP5_CAPTURE_TB_PASS checks=3029 samples=2048
+$finish called at time : 330860 ns : File "D:/fpga_projects/timing_sentinel_a7_qor_20261012/source_snapshot/tb/tb_mvp5_capture.v" Line 97

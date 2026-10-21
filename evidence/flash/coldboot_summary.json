@@ -1,0 +1,61 @@
+{
+  "arm_used": false,
+  "audit": {
+    "method": "sample_reconstruction_without_scene_markers",
+    "reasons": [],
+    "rules": [
+      {
+        "matched_delay_ms": null,
+        "observed_delay_ms": 2.85482,
+        "result": "TIMEOUT",
+        "rule_id": 0,
+        "sampled_observed_ms": 2.85484
+      },
+      {
+        "matched_delay_ms": null,
+        "observed_delay_ms": 2.85482,
+        "result": "TIMEOUT",
+        "rule_id": 1,
+        "sampled_observed_ms": 2.85484
+      },
+      {
+        "matched_delay_ms": 2.8962,
+        "observed_delay_ms": 2.8962,
+        "result": "PASS",
+        "rule_id": 2,
+        "sampled_observed_ms": 2.89624
+      },
+      {
+        "matched_delay_ms": null,
+        "observed_delay_ms": null,
+        "result": "TIMEOUT",
+        "rule_id": 3,
+        "sampled_observed_ms": null
+      }
+    ],
+    "status": "verified"
+  },
+  "config": 2,
+  "configure_used": false,
+  "crc_errors": 0,
+  "electrical_power_rail_trace_recorded": false,
+  "firmware_programmed_during_cold_check": false,
+  "host_exe_qualified": false,
+  "human_report": "User reports three beeps and light indication after requested full disconnect, independent power, KEY0, reconnect sequence",
+  "ila_in_final_image": false,
+  "passed": true,
+  "release_used": false,
+  "retries": 0,
+  "samples": 65536,
+  "scope": "Human-assisted real power-cycle + read-only JTAG identity and saved raw waveform audit",
+  "session": 1,
+  "usr_access": "4D565043",
+  "workload": {
+    "id": 1,
+    "name": "无中断",
+    "nominal_period_us": 0,
+    "packet_hex": "e24040416052557b72a5",
+    "phase": 37,
+    "profile": 0
+  }
+}

@@ -1,0 +1,3 @@
+Time resolution is 1 ps
+SELECTOR_BYTE_BACKEND_PASS frames=21 bytes=8110 calls=13
+$finish called at time : 891380 ns : File "[project_root]/ops/selector_20261013/tb_selector_byte_backend.v" Line 162

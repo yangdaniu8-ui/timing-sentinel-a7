@@ -1,0 +1,207 @@
+{
+  "new_hardware_transactions": 0,
+  "passed": true,
+  "scope": "offline per-file isolated processes",
+  "serial_opened": false,
+  "suites": [
+    {
+      "exit_code": 0,
+      "name": "mvp5/tests/test_analysis.py",
+      "passed": true,
+      "tests": 37
+    },
+    {
+      "exit_code": 0,
+      "name": "mvp5/tests/test_button_observe.py",
+      "passed": true,
+      "tests": 8
+    },
+    {
+      "exit_code": 0,
+      "name": "mvp5/tests/test_capture_storage_ui.py",
+      "passed": true,
+      "tests": 12
+    },
+    {
+      "exit_code": 0,
+      "name": "mvp5/tests/test_compact_ui.py",
+      "passed": true,
+      "tests": 32
+    },
+    {
+      "exit_code": 0,
+      "name": "mvp5/tests/test_diagnostic_actions.py",
+      "passed": true,
+      "tests": 3
+    },
+    {
+      "exit_code": 0,
+      "name": "mvp5/tests/test_diagnostics_panel.py",
+      "passed": true,
+      "tests": 7
+    },
+    {
+      "exit_code": 0,
+      "name": "mvp5/tests/test_exports.py",
+      "passed": true,
+      "tests": 25
+    },
+    {
+      "exit_code": 0,
+      "name": "mvp5/tests/test_layout_transfer.py",
+      "passed": true,
+      "tests": 6
+    },
+    {
+      "exit_code": 0,
+      "name": "mvp5/tests/test_live_capture_faults.py",
+      "passed": true,
+      "tests": 7
+    },
+    {
+      "exit_code": 0,
+      "name": "mvp5/tests/test_mvp4.py",
+      "passed": true,
+      "tests": 31
+    },
+    {
+      "exit_code": 0,
+      "name": "mvp5/tests/test_paired_deadlines.py",
+      "passed": true,
+      "tests": 15
+    },
+    {
+      "exit_code": 0,
+      "name": "mvp5/tests/test_poll_layout_stability.py",
+      "passed": true,
+      "tests": 11
+    },
+    {
+      "exit_code": 0,
+      "name": "mvp5/tests/test_presentation.py",
+      "passed": true,
+      "tests": 25
+    },
+    {
+      "exit_code": 0,
+      "name": "mvp5/tests/test_result_item_lifetime.py",
+      "passed": true,
+      "tests": 6
+    },
+    {
+      "exit_code": 0,
+      "name": "mvp5/tests/test_safety_mode.py",
+      "passed": true,
+      "tests": 18
+    },
+    {
+      "exit_code": 0,
+      "name": "mvp5/tests/test_spi.py",
+      "passed": true,
+      "tests": 18
+    },
+    {
+      "exit_code": 0,
+      "name": "mvp5/tests/test_user_guidance.py",
+      "passed": true,
+      "tests": 16
+    },
+    {
+      "exit_code": 0,
+      "name": "mvp5/tests/test_window_teardown.py",
+      "passed": true,
+      "tests": 3
+    },
+    {
+      "exit_code": 0,
+      "name": "mvp5/tests/test_workload.py",
+      "passed": true,
+      "tests": 16
+    },
+    {
+      "exit_code": 0,
+      "name": "mvp5/tests/test_workload_experiment.py",
+      "passed": true,
+      "tests": 15
+    },
+    {
+      "exit_code": 0,
+      "name": "mvp4/tests/test_mvp4.py",
+      "passed": true,
+      "tests": 29
+    },
+    {
+      "exit_code": 0,
+      "name": "tests/test_capture.py",
+      "passed": true,
+      "tests": 9
+    },
+    {
+      "exit_code": 0,
+      "name": "tests/test_gui.py",
+      "passed": true,
+      "tests": 7
+    },
+    {
+      "exit_code": 0,
+      "name": "tests/test_gui_audit.py",
+      "passed": true,
+      "tests": 12
+    },
+    {
+      "exit_code": 0,
+      "name": "tests/test_link_bringup.py",
+      "passed": true,
+      "tests": 6
+    },
+    {
+      "exit_code": 0,
+      "name": "tests/test_protocol.py",
+      "passed": true,
+      "tests": 8
+    },
+    {
+      "exit_code": 0,
+      "name": "tests/test_protocol_audit.py",
+      "passed": true,
+      "tests": 10
+    },
+    {
+      "exit_code": 0,
+      "name": "tests/test_record_audit.py",
+      "passed": true,
+      "tests": 7
+    },
+    {
+      "exit_code": 0,
+      "name": "tests/test_records.py",
+      "passed": true,
+      "tests": 3
+    },
+    {
+      "exit_code": 0,
+      "name": "tests/test_release_audit.py",
+      "passed": true,
+      "tests": 7
+    },
+    {
+      "exit_code": 0,
+      "name": "tests/test_v2.py",
+      "passed": true,
+      "tests": 9
+    },
+    {
+      "exit_code": 0,
+      "name": "app/tests/test_capture_storage.py",
+      "passed": true,
+      "tests": 7
+    },
+    {
+      "exit_code": 0,
+      "name": "app/tests/test_diagnostics.py",
+      "passed": true,
+      "tests": 10
+    }
+  ],
+  "tests": 435
+}

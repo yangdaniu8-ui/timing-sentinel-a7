@@ -1,0 +1,3 @@
+Time resolution is 1 ps
+MVP5_PROTOCOL_TB_PASS bytes=9675 packets=118 ARM=1 STOP=1 RELEASE=1 COMMIT=7
+$finish called at time : 11147720 ns : File "D:/fpga_projects/timing_sentinel_a7_qor_20261012/source_snapshot/tb/tb_mvp5_protocol.v" Line 91

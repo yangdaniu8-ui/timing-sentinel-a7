@@ -1,0 +1,15 @@
+{
+  "backend": "XSim2026.1",
+  "bit_sha256": "b18e94908531ebf2f0218c375f78d815290fbebb554a1c51848f50e4c12a3636",
+  "dcp_sha256": "38685eadb3eb45ef8168c841c915add272ad6db4bb29d4d30e88d8eb1ec2240d",
+  "external_cli_b01_failed": true,
+  "failed_cli_report_sha256": "0803714de614e5820829fd60c885b6d023401887238a8c98755c1b0054db900a",
+  "full_original_oracle": true,
+  "mode": "post-implementation functional",
+  "pass_marker": "QOR_TOP_BYTE_ORACLE_PASS bytes=766 vectors=1114",
+  "passed": true,
+  "rtl_or_testbench_modified": false,
+  "sdf_used": false,
+  "simulated_time_ns": 97684660,
+  "usr_access": "0x4D565043"
+}

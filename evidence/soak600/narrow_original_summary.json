@@ -1,0 +1,374 @@
+{
+  "cases": 300,
+  "deadline_ms": 3.5,
+  "experiment_sha256": "f671db05a66e0117d485c848a14f6a1eaa92851fac118fca43a43096b48734cf",
+  "groups": [
+    {
+      "gpio": {
+        "histogram": [
+          {
+            "count": 4,
+            "high_ms": 2.8535399999999997,
+            "low_ms": 2.85336
+          },
+          {
+            "count": 8,
+            "high_ms": 2.85372,
+            "low_ms": 2.8535399999999997
+          },
+          {
+            "count": 16,
+            "high_ms": 2.8539,
+            "low_ms": 2.85372
+          },
+          {
+            "count": 19,
+            "high_ms": 2.8540799999999997,
+            "low_ms": 2.8539
+          },
+          {
+            "count": 19,
+            "high_ms": 2.85426,
+            "low_ms": 2.8540799999999997
+          },
+          {
+            "count": 17,
+            "high_ms": 2.85444,
+            "low_ms": 2.85426
+          },
+          {
+            "count": 13,
+            "high_ms": 2.85462,
+            "low_ms": 2.85444
+          },
+          {
+            "count": 4,
+            "high_ms": 2.8548,
+            "low_ms": 2.85462
+          }
+        ],
+        "max_ms": 2.8548,
+        "mean_ms": 2.8540948,
+        "min_ms": 2.85336,
+        "n": 100,
+        "p50_ms": 2.8541,
+        "p95_ms": 2.85456,
+        "p99_ms": 2.8547406,
+        "span_ms": 0.0014400000000001079,
+        "stddev_ms": 0.00031583058749906325
+      },
+      "irq_count_max": 0,
+      "irq_count_min": 0,
+      "n": 100,
+      "name": "无中断",
+      "nominal_irq_hz": 0,
+      "profile": 0,
+      "rule_verdict_counts": {
+        "PASS": 200
+      },
+      "spi": {
+        "histogram": [
+          {
+            "count": 2,
+            "high_ms": 2.893815,
+            "low_ms": 2.89348
+          },
+          {
+            "count": 4,
+            "high_ms": 2.89415,
+            "low_ms": 2.893815
+          },
+          {
+            "count": 6,
+            "high_ms": 2.894485,
+            "low_ms": 2.89415
+          },
+          {
+            "count": 4,
+            "high_ms": 2.89482,
+            "low_ms": 2.894485
+          },
+          {
+            "count": 12,
+            "high_ms": 2.895155,
+            "low_ms": 2.89482
+          },
+          {
+            "count": 34,
+            "high_ms": 2.89549,
+            "low_ms": 2.895155
+          },
+          {
+            "count": 25,
+            "high_ms": 2.895825,
+            "low_ms": 2.89549
+          },
+          {
+            "count": 13,
+            "high_ms": 2.89616,
+            "low_ms": 2.895825
+          }
+        ],
+        "max_ms": 2.89616,
+        "mean_ms": 2.8952692,
+        "min_ms": 2.89348,
+        "n": 100,
+        "p50_ms": 2.8953699999999998,
+        "p95_ms": 2.89592,
+        "p99_ms": 2.8960808,
+        "span_ms": 0.0026800000000002377,
+        "stddev_ms": 0.0005405731772849891
+      }
+    },
+    {
+      "gpio": {
+        "histogram": [
+          {
+            "count": 31,
+            "high_ms": 2.94339,
+            "low_ms": 2.93802
+          },
+          {
+            "count": 0,
+            "high_ms": 2.94876,
+            "low_ms": 2.94339
+          },
+          {
+            "count": 0,
+            "high_ms": 2.95413,
+            "low_ms": 2.94876
+          },
+          {
+            "count": 0,
+            "high_ms": 2.9595000000000002,
+            "low_ms": 2.95413
+          },
+          {
+            "count": 0,
+            "high_ms": 2.96487,
+            "low_ms": 2.9595000000000002
+          },
+          {
+            "count": 0,
+            "high_ms": 2.97024,
+            "low_ms": 2.96487
+          },
+          {
+            "count": 0,
+            "high_ms": 2.97561,
+            "low_ms": 2.97024
+          },
+          {
+            "count": 69,
+            "high_ms": 2.98098,
+            "low_ms": 2.97561
+          }
+        ],
+        "max_ms": 2.98098,
+        "mean_ms": 2.9673894,
+        "min_ms": 2.93802,
+        "n": 100,
+        "p50_ms": 2.98005,
+        "p95_ms": 2.98074,
+        "p99_ms": 2.9809205999999997,
+        "span_ms": 0.04296000000000033,
+        "stddev_ms": 0.019205029436061796
+      },
+      "irq_count_max": 3,
+      "irq_count_min": 2,
+      "n": 100,
+      "name": "轻度中断竞争",
+      "nominal_irq_hz": 1000,
+      "profile": 1,
+      "rule_verdict_counts": {
+        "PASS": 200
+      },
+      "spi": {
+        "histogram": [
+          {
+            "count": 31,
+            "high_ms": 2.9847525,
+            "low_ms": 2.97938
+          },
+          {
+            "count": 0,
+            "high_ms": 2.990125,
+            "low_ms": 2.9847525
+          },
+          {
+            "count": 0,
+            "high_ms": 2.9954975,
+            "low_ms": 2.990125
+          },
+          {
+            "count": 0,
+            "high_ms": 3.00087,
+            "low_ms": 2.9954975
+          },
+          {
+            "count": 0,
+            "high_ms": 3.0062425,
+            "low_ms": 3.00087
+          },
+          {
+            "count": 0,
+            "high_ms": 3.011615,
+            "low_ms": 3.0062425
+          },
+          {
+            "count": 0,
+            "high_ms": 3.0169875,
+            "low_ms": 3.011615
+          },
+          {
+            "count": 69,
+            "high_ms": 3.02236,
+            "low_ms": 3.0169875
+          }
+        ],
+        "max_ms": 3.02236,
+        "mean_ms": 3.008687,
+        "min_ms": 2.97938,
+        "n": 100,
+        "p50_ms": 3.02133,
+        "p95_ms": 3.02212,
+        "p99_ms": 3.0223006,
+        "span_ms": 0.04298000000000002,
+        "stddev_ms": 0.019209438383253168
+      }
+    },
+    {
+      "gpio": {
+        "histogram": [
+          {
+            "count": 35,
+            "high_ms": 4.2297425,
+            "low_ms": 4.22424
+          },
+          {
+            "count": 0,
+            "high_ms": 4.235245,
+            "low_ms": 4.2297425
+          },
+          {
+            "count": 0,
+            "high_ms": 4.2407474999999994,
+            "low_ms": 4.235245
+          },
+          {
+            "count": 0,
+            "high_ms": 4.24625,
+            "low_ms": 4.2407474999999994
+          },
+          {
+            "count": 0,
+            "high_ms": 4.2517525,
+            "low_ms": 4.24625
+          },
+          {
+            "count": 0,
+            "high_ms": 4.257255,
+            "low_ms": 4.2517525
+          },
+          {
+            "count": 0,
+            "high_ms": 4.262757499999999,
+            "low_ms": 4.257255
+          },
+          {
+            "count": 65,
+            "high_ms": 4.26826,
+            "low_ms": 4.262757499999999
+          }
+        ],
+        "max_ms": 4.26826,
+        "mean_ms": 4.252271400000001,
+        "min_ms": 4.22424,
+        "n": 100,
+        "p50_ms": 4.26619,
+        "p95_ms": 4.267723999999999,
+        "p99_ms": 4.2681214,
+        "span_ms": 0.044019999999999726,
+        "stddev_ms": 0.0197532861580042
+      },
+      "irq_count_max": 34,
+      "irq_count_min": 33,
+      "n": 100,
+      "name": "重度中断竞争",
+      "nominal_irq_hz": 8000,
+      "profile": 2,
+      "rule_verdict_counts": {
+        "TIMEOUT": 200
+      },
+      "spi": {
+        "histogram": [
+          {
+            "count": 35,
+            "high_ms": 4.270895,
+            "low_ms": 4.26536
+          },
+          {
+            "count": 0,
+            "high_ms": 4.27643,
+            "low_ms": 4.270895
+          },
+          {
+            "count": 0,
+            "high_ms": 4.2819650000000005,
+            "low_ms": 4.27643
+          },
+          {
+            "count": 0,
+            "high_ms": 4.2875,
+            "low_ms": 4.2819650000000005
+          },
+          {
+            "count": 0,
+            "high_ms": 4.293035,
+            "low_ms": 4.2875
+          },
+          {
+            "count": 0,
+            "high_ms": 4.29857,
+            "low_ms": 4.293035
+          },
+          {
+            "count": 0,
+            "high_ms": 4.304105,
+            "low_ms": 4.29857
+          },
+          {
+            "count": 65,
+            "high_ms": 4.30964,
+            "low_ms": 4.304105
+          }
+        ],
+        "max_ms": 4.30964,
+        "mean_ms": 4.2935304,
+        "min_ms": 4.26536,
+        "n": 100,
+        "p50_ms": 4.30735,
+        "p95_ms": 4.308967,
+        "p99_ms": 4.3094816,
+        "span_ms": 0.04427999999999965,
+        "stddev_ms": 0.019724049580144544
+      }
+    }
+  ],
+  "heavy_mean_increase_percent": 48.98844285060191,
+  "mcu_sha256": "64fa411cb3afa355b18d1d3a867c1eed71e98c3ae71a7c698f40b9fb33f565dd",
+  "passed": true,
+  "scope": "30-or-configured isolated workload jobs; not full-project qualification",
+  "wire_audit": {
+    "collector_counter_snapshot_before_final_status": {
+      "rx": 21169172,
+      "tx": 656078
+    },
+    "crc_length_version_errors": 0,
+    "includes_final_status": true,
+    "requests": 22351,
+    "runtime_decoder_expiry_not_recorded": true,
+    "rx_bytes": 21169320,
+    "tx_bytes": 656098
+  }
+}
