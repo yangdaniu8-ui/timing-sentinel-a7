@@ -2,7 +2,9 @@
 
 ## 当前技术文档
 
-[最新版技术文档 PDF](technical_report.pdf)为已确认的14页报告，参考文献独立最后一页；对应正文、插图和生成脚本一并保存在仓库中。程序和固件保持冻结。既有免安装ZIP仍内附早期报告，请单独下载最新版；旧附件不覆盖。
+[最新版技术文档 PDF](technical_report.pdf)为已确认的v6全文润色稿，共14页，参考文献独立最后一页；[正文](../report/technical_report_polished.md)、插图和[生成脚本](../scripts/build_submission_pdf_v6.py)一并保存在仓库中。本次只更新报告、说明与文件清单，技术表数值、10张配图及参考文献保持不变。程序和固件保持冻结；免安装ZIP、源码RAR均不重打，包内报告不会自动更新，请单独下载本仓库最新版PDF。
+
+PDF SHA256：`3d6155a7c3d4b66f7c0109b83c0b38ca6bbf5d0b11c9e5126c78c90501f95f36`。
 
 ## 0.4.9 · 2026年10月20日
 
@@ -32,7 +34,7 @@ Windows x64免安装版，完整解压后双击`START.cmd`，无需Python/Vivado
 
 新EXE SHA256：`fb406e1084f50a9db2679f13c13e06f131be0ea4e71a0f6b694219a9cb628da5`。详细检查摘要与SHA256SUMS随Release提供；校验和只证明完整性，不是代码签名。
 
-此重建包尚未在另一台电脑复验，旧包另机结果不直接移植为此包资格。已有其他历史构建继续保留，不以相同0.4.9标题混同具体EXE；请按Release日期和散列区分。
+最终公开运行包的启动、历史回放、关闭重开、接板读取和保存后重开，已由操作人员在另一台Windows电脑人工确认正常；本次未取得新的原始任务记录，不增加长测计数。后续连接故障应按当次端口、供电和通信日志另行排查，该历史结果不代表所有电脑与USB链路均已覆盖。已有其他历史构建继续保留，不以相同0.4.9标题混同具体EXE；请按Release日期和散列区分。
 
 ## 技能与报告补充（应用版本不变）
 
@@ -44,4 +46,4 @@ Windows x64免安装版，完整解压后双击`START.cmd`，无需Python/Vivado
 
 主体自有源码现按MIT发布，第三方许可原文保留，详[许可范围](licensing.md)。新增[evidence](../evidence/README.md)及离线校验脚本；600份历史记录和12组ILA配对已复核，不是再次采集或重新刷写。正式源、镜像、报告哈希及Flash/冷启证据分别绑定，验证结果见[evidence_validation.json](evidence_validation.json)。
 
-本次统一源码包为`TimingSentinelA7-AllSource-USR43-UI049-Evidence-MIT.rar`，包括最新14页PDF、主体MIT、Skill、全部源码和验证附件。独立附件`timing_sentinel_evidence.zip`供只查看验证数据的读者使用；其中的`validation.json`是实际离线复核结果。两者均不包含虚拟环境、厂商工具或个人Git历史。旧运行ZIP和EXE字节不改，根目录许可与独立文档补充适用于本次源码交付。
+证据与许可补充时发布的源码包为`TimingSentinelA7-AllSource-USR43-UI049-Evidence-MIT.rar`，包括当时的14页v4报告、主体MIT、Skill、全部源码和验证附件。本次v6仅为报告润色，源码与固件未变，因此保留原RAR，不将其声称为已含v6。独立附件`timing_sentinel_evidence.zip`供只查看验证数据的读者使用；其中的`validation.json`是实际离线复核结果。两者均不包含虚拟环境、厂商工具或个人Git历史。旧运行ZIP和EXE字节不改；提交技术文档时请选用上方最新PDF。

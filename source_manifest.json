@@ -14,12 +14,12 @@
       "sha256": "49b173752e3554c3144579b03f2d4a893aa43d5a0d482814d8205c4e1a62a69a"
     },
     "README.md": {
-      "bytes": 5214,
-      "sha256": "80ed79ab29c612646d58eba2c2ce527e762f2f11b457e75604cf594992feddde"
+      "bytes": 5302,
+      "sha256": "c61813bff2daa3f085c9b3ed7b8559ac1a6351004a0616a563994ad4f630fe54"
     },
     "docs/build_and_validation.md": {
-      "bytes": 4103,
-      "sha256": "55a1d5ad18ac1ed196ae38f12657cccb8176abf7d01ed2592fd7b87c7e861df0"
+      "bytes": 4403,
+      "sha256": "b95f6b15d5f5a0c904d7625b23536941bb38cd324bfbe15be38b118ac23555e2"
     },
     "docs/evidence_validation.json": {
       "bytes": 1715,
@@ -30,16 +30,16 @@
       "sha256": "150d06683b221ce884428859e54497dbf33636de9f9bf1b8a4785785abe0cf97"
     },
     "docs/releases.md": {
-      "bytes": 3956,
-      "sha256": "5fc77ebb683428e0963483ac3063baf034465f4b6c5854e6581056012e1fb63b"
+      "bytes": 4644,
+      "sha256": "7536c744345074eee23fc8ad8050fe5d4a0be5a168d5faad028803e2a5e25c0e"
     },
     "docs/skill_submission.md": {
       "bytes": 1758,
       "sha256": "2f8c4d8b3ffda0d0fea52b134dd6e39aaa56318e6e26853bb6b67eda529bbe25"
     },
     "docs/technical_report.pdf": {
-      "bytes": 2508883,
-      "sha256": "c0e29cff73c820b8afe40b71b9141935dd039f743de0c8b36a7037ad6d4832c7"
+      "bytes": 2503220,
+      "sha256": "3d6155a7c3d4b66f7c0109b83c0b38ca6bbf5d0b11c9e5126c78c90501f95f36"
     },
     "docs/verification.md": {
       "bytes": 2932,
@@ -3973,6 +3973,10 @@
       "bytes": 19097,
       "sha256": "cc52175764f83a4d6491e3f2f7a43b33bcf3afde37fb07c5b733d80872f57a15"
     },
+    "report/technical_report_polished.md": {
+      "bytes": 23697,
+      "sha256": "52b41ace1059bad14caf54ce54002398334076bb1ce7dc9c0ad611123a4cce81"
+    },
     "report/technical_report_skill_revision.md": {
       "bytes": 21605,
       "sha256": "744083a9272cde03e8e57562d1d24206555d5f72aff4f9096d911b470f0f6d1b"
@@ -4000,6 +4004,10 @@
     "scripts/build_submission_pdf_v4.py": {
       "bytes": 10410,
       "sha256": "c61511f389de47ba2156462a93cabd2f16a12694a7c82a7ef18f089c40a6e400"
+    },
+    "scripts/build_submission_pdf_v6.py": {
+      "bytes": 2012,
+      "sha256": "77610a556490a61af42bb2f65bb117185789aaf5118c229de318d02f7119a8d8"
     },
     "scripts/mvp1_protocol_cases.py": {
       "bytes": 11921,
